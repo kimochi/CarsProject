@@ -43,6 +43,7 @@
 	
 
 <?php foreach ($vehicl as $vehicle): ?>
+<?php foreach ($vehicl as $vehicle): ?>
 
 <div class="row-item">
     <div class="inner">
