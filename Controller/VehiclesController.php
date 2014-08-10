@@ -382,15 +382,16 @@ public function showModele(){
 	public function add() {
 		if ($this->request->is('post')) {
 			debug($this->request->data);
+			/**/
 			$img1 = $this->request->data['Vehicle']['image_file'];
 			$img2 = $this->request->data['Vehicle']['image_file_2'];
 			$img3 = $this->request->data['Vehicle']['image_file_3'];
 			$img4 = $this->request->data['Vehicle']['image_file_4'];
 			$img5 = $this->request->data['Vehicle']['image_file_5'];
 			$images = array($img1,$img2,$img3,$img4,$img5);
-			//debug($images);
-			//debug($img1);
-			//die();
+			debug($images);
+			debug($img1);
+			die();
 			$this->Vehicle->create();
 			if ($this->Vehicle->save($this->request->data)) {
 				//remplir les images dans la table imagesvehicle

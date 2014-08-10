@@ -58,7 +58,6 @@
 										 echo $this->Html->image('uploads/vehicules/'.$img['Imagesvehicle']['image'],array('class'=>"slide"));
 									}
 								}
-							
 						?>
                         
                         <div class="cycle-pager"></div><!-- /.cycle-pager -->

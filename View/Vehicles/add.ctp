@@ -1,5 +1,6 @@
 <?php echo $this->Html->script('jquery'); ?>
 <?php echo $this->Html->script('jquery.ui'); ?>
+
 <div class="vehicles form">
 <?php echo $this->Form->create('Vehicle',array('type'=>'file')); ?>
 	<fieldset>
