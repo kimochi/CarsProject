@@ -7,7 +7,7 @@
                 <div class="col-md-12">
                     <div class="heading">
                         <div class="title">
-                            <h>
+                            <h1>
                             	<?php echo h($vehicle['Mark']['name']);  ?>    
                             	<?php echo h($vehicle['Modele']['name']); ?>
                             </h1>
