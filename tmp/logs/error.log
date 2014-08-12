@@ -1,0 +1,40 @@
+2014-08-12 18:19:14 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\wamp\www\Cakephp\app\View\Vehicles\index.ctp, line 295]
+2014-08-12 18:19:14 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /Cakephp/vehicles
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 295)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 295, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 295, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-12 18:19:17 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\wamp\www\Cakephp\app\View\Vehicles\index.ctp, line 295]
+2014-08-12 18:19:17 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /Cakephp/vehicles
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 295)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 295, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 295, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-12 18:19:59 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp\www\Cakephp\app\View\Vehicles\index.ctp, line 294]
+2014-08-12 18:19:59 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Cakephp/vehicles
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 294)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 294, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 294, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-12 18:20:02 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp\www\Cakephp\app\View\Vehicles\index.ctp, line 294]
+2014-08-12 18:20:02 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Cakephp/vehicles
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 294)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 294, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 294, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

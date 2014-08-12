@@ -290,8 +290,8 @@
             </div><!-- /.image-slider -->
         </div><!-- /.picture -->
 
-        <div class="like">
-            <a href="detail.html"><i class="icon icon-outline-thumb-up"></i></a>
+        <div class="like"><i class="icon icon-outline-thumb-up"></i>
+            <?php echo $this->Html->link('', array('controller' => 'vehicles', 'action' => 'view',$vehicle['Vehicle']['id'])); ?>
         </div><!-- /.like -->
 
         <h3>
@@ -1203,7 +1203,6 @@
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
-	<?php debug($vehicles) ?>
 	<tr>	<?php foreach ($vehicles as $vehicle): ?>
 	
 		<td><?php echo h($vehicle['Vehicle']['id']); ?>&nbsp;</td>
