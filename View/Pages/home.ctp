@@ -1,6 +1,4 @@
 
-?>
-
 <div class="highlighted-wrapper gray">
     <div class="highlighted section">
         <div class="container">

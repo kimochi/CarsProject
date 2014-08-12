@@ -391,7 +391,7 @@ public function showModele(){
 			$images = array($img1,$img2,$img3,$img4,$img5);
 			//debug($images);
 			//debug($img1);
-			exit();
+			//exit();
 			$this->Vehicle->create();
 			if ($this->Vehicle->save($this->request->data)) {
 				//remplir les images dans la table imagesvehicle
