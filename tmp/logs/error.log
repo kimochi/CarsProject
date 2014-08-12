@@ -79,3 +79,57 @@ Request URL: /Cakephp/js/jquery-2.0.3.min.map
 Stack Trace:
 #0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-08-12 13:29:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-12 13:30:53 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota3.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota3.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-12 13:30:54 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota1.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota1.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-12 13:30:54 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota2.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota2.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-12 13:30:55 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota4.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota4.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-12 13:30:56 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota5.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota5.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

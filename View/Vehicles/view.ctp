@@ -167,10 +167,6 @@
                                                                 <table class="table">
                                                                     <tbody>
                                                                         <tr>
-                                                                            <td class="property">Type</td>
-                                                                            <td class="value"><?php echo h($vehicle['Modele']['type']); ?></td>
-                                                                        </tr>
-                                                                        <tr>
                                                                             <td class="property">Year</td>
                                                                             <td class="value"><?php echo h($vehicle['Vehicle']['year']) ?></td>
                                                                         </tr>
