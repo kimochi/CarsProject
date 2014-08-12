@@ -49,8 +49,6 @@
 		
 ?>
 
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,400,700,400italic,700italic" rel="stylesheet" type="text/css"  media="screen, projection">
-<script src="http://maps.googleapis.com/maps/api/js?sensor=true&amp;v=3.13"></script>
 
 <?
 
@@ -934,4 +932,7 @@
 		echo $this->Html->script('carat');
 		 ?>
 		<script src="http://maps.googleapis.com/maps/api/js?sensor=true&amp;v=3.13"></script>
+		
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,400,700,400italic,700italic" rel="stylesheet" type="text/css"  media="screen, projection">
+<script src="http://maps.googleapis.com/maps/api/js?sensor=true&amp;v=3.13"></script>
 </html>
