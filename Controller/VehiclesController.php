@@ -422,12 +422,6 @@ public function showModele(){
 					
 					
 				}
-				
-				
-				
-
-
-				//
 				//aprés le save sauvegarder l'image
 				
 				$this->Session->setFlash(__('The vehicle has been saved.'));

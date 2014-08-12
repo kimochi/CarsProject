@@ -31,17 +31,6 @@
 		    'options' => array('Essence'=>'Essence','Diesel'=>'Diesel','Electrique'=>'Electrique','Hybrides'=>'Hybrides'),
 		    'empty' => 'Choisir ... '
 		));
-		/*echo $this->Form->input('year', array(
-        'type' => 'year', 
-        'selected' => array( 
-            'year'=>date('Y') 
-        ),
-        'minYear' =>  1980 ,
-        'maxYear' => date('Y') 
-    )
-);*/
-		//echo $this->Form->year('year',1980, date('Y'),array('label','Année'));
-		//echo $this->Form->input('year',array('type'=>'year',array('options'=> 1980, date('Y'))));
 		echo $this->Form->input('extcolor',array('options'=>array('Argent'=>'Argent','Beige'=>'Beige','Blanc'=>'Blanc','Bleu'=>'Bleu','Girs'=>'Girs','Ivoire'=>'Ivoire','Jaune'=>'Jaune','Marron'=>'Marron','Noir'=>'Noir','Or'=>'Or','Orange'=>'Orange','Rouge'=>'Rouge','Vert'=>'Vert','Rose'=>'Rose','Violet'=>'Violet')));
 		echo $this->Form->input('intcolor',array('options'=>array('Argent'=>'Argent','Beige'=>'Beige','Blanc'=>'Blanc','Bleu'=>'Bleu','Girs'=>'Girs','Ivoire'=>'Ivoire','Jaune'=>'Jaune','Marron'=>'Marron','Noir'=>'Noir','Or'=>'Or','Orange'=>'Orange','Rouge'=>'Rouge','Vert'=>'Vert','Rose'=>'Rose','Violet'=>'Violet')));
 		echo $this->Form->input('image_file',array('type'=>'file'));
