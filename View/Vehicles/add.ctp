@@ -26,8 +26,7 @@
 
 		echo $this->Form->input('description');
 		echo "Ajouter les images (Taille Limit : 4.)";
-		echo $this->Form->input('image_file',array('label'=>"",'type'=>'file'));//L'image en format jpeg, png ou gif
-		//echo $this->Html->link('Ajouter encore',array('controller'=>'','action'=>'#'),array('id'=>'add_more'));7
+		echo $this->Form->input('image_file',array('label'=>"",'type'=>'file'));//L'image en format jpeg, png ou 
 
 	?>
 	<a style='cursor:pointer;' id="add_more">Ajouter de plus </a>

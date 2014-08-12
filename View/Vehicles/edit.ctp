@@ -13,7 +13,7 @@
 		echo $this->Form->input('price');
 		echo $this->Form->input('mileage');
 		echo $this->Form->input('consumption');
-		echo $this->Form->year('year', 1930, date('Y') ,array('empty'=>'Selectionnez l\'année'));
+		echo $this->Form->input('year');
 		echo $this->Form->input('nbr_portes');
 		echo $this->Form->input(
     	'date_mise_en_circulation',
@@ -33,7 +33,6 @@
 		));
 		echo $this->Form->input('extcolor',array('options'=>array('Argent'=>'Argent','Beige'=>'Beige','Blanc'=>'Blanc','Bleu'=>'Bleu','Girs'=>'Girs','Ivoire'=>'Ivoire','Jaune'=>'Jaune','Marron'=>'Marron','Noir'=>'Noir','Or'=>'Or','Orange'=>'Orange','Rouge'=>'Rouge','Vert'=>'Vert','Rose'=>'Rose','Violet'=>'Violet')));
 		echo $this->Form->input('intcolor',array('options'=>array('Argent'=>'Argent','Beige'=>'Beige','Blanc'=>'Blanc','Bleu'=>'Bleu','Girs'=>'Girs','Ivoire'=>'Ivoire','Jaune'=>'Jaune','Marron'=>'Marron','Noir'=>'Noir','Or'=>'Or','Orange'=>'Orange','Rouge'=>'Rouge','Vert'=>'Vert','Rose'=>'Rose','Violet'=>'Violet')));
-		echo $this->Form->input('image_file',array('type'=>'file'));
 		echo $this->Form->input('description');
 		echo $this->Form->input('sold');
 		echo $this->Form->input(
@@ -46,12 +45,17 @@
         'minYear' => date('Y') - 40,
         'maxYear' => date('Y')
     )
-);
+);		
+		echo "Ajouter les nouvelles images, ces images vont remplacer les anciens (Taille Limit : 5.)";
+		echo $this->Form->input('image_file',array('type'=>'file'));
+
 		
 	?>
+
+	<a style='cursor:pointer;' id="add_more">Ajouter de plus </a>
 	</fieldset>
-<?php echo $this->Form->end(__('Submit')); ?>
 </div>
+<?php echo $this->Form->end(__('Submit')); ?>
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
@@ -78,4 +82,14 @@
 									}
 								);
 							});
-                        </script>
+
+							$('#add_more').click(function(){
+								var  current_count = $("input[type='file']").length;
+								if (current_count <= 4 ) {
+
+								var next_count = current_count + 1 ;
+								$('#VehicleEditForm').append("<div class='input_file'> <label></label><input type='file' name='data[Vehicle][image_file_"+next_count+"]' class='image_"+next_count+"'  /></div>");	
+								}
+							}); 
+              </script>
+

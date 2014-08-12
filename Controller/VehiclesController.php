@@ -447,27 +447,39 @@ public function showModele(){
 			throw new NotFoundException(__('Invalid vehicle'));
 		}
 		if ($this->request->is(array('post', 'put'))) {
-				//debug($this->request->data);
-			if ($this->Vehicle->save($this->request->data)) {
+			$img1 = $this->request->data['Vehicle']['image_file'];
+				$img2 = $this->request->data['Vehicle']['image_file_2'];
+				$img3 = $this->request->data['Vehicle']['image_file_3'];
+				$img4 = $this->request->data['Vehicle']['image_file_4'];
+				$img5 = $this->request->data['Vehicle']['image_file_5'];
+				$images = array($img1,$img2,$img3,$img4,$img5);
+				$idimg = $this->Vehicle->Imagesvehicle->find('first',array('conditions'=>array('Imagesvehicle.vehicle_id'=>$id),'fields'=> 'id'));
+				if ($this->Vehicle->save($this->request->data)) {
 				//récupérer l'image envoyé
-				$file = $this->request->data['Vehicle']['image_file'];
 				//s'il en existe
-				if (isset($file)) {
-					$extension = strtolower(pathinfo($file['name'],PATHINFO_EXTENSION));//l'extension jdida au cas ou bgha yzid l'image w hya makantch
-					
-					if (!empty($file['tmp_name'])) {
-						$oldextension = strtolower(pathinfo($this->Vehicle->field['image'], PATHINFO_EXTENSION)); //extension l9dima au cas ou bgha ymodifi l'image ila déja kayna 
-						$oldfile = IMAGES  . 'uploads\vehicules' . DS. $this->Vehicle->field['image'];//nchdo l'image (objét)
-						if (file_exists($oldfile)) {
-							//supprimer si une existe déja
-							unlink($oldfile);
+					$idmg = current($idimg)['id'];
+				foreach ($images as $img) {
+					//$file=$img;
+					if (isset($img)) {
+						$extension = strtolower(pathinfo($img['name'],PATHINFO_EXTENSION));//l'extension jdida au cas ou bgha yzid l'image w hya makantch
+						
+						if (!empty($img['tmp_name'])) {
+							$oldextension = strtolower(pathinfo($this->Vehicle->Imagesvehicle->field['image'], PATHINFO_EXTENSION)); //extension l9dima au cas ou bgha ymodifi l'image ila déja kayna 
+							$oldfile = IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '.' . $extension;//nchdo l'image (objét)
+
+								unlink($oldfile);
+							
+							//et aprés enregistrer l'image
+						move_uploaded_file($img['tmp_name'], IMAGES .'uploads\vehicules'. DS .'car_'.$id .'_'.$idmg. '.' . $extension );
+						//enregistrer le nom de l'image dans la base de données
+
+						$this->Vehicle->Imagesvehicle->id = $idimg;
+						$this->Vehicle->Imagesvehicle->saveField('image','car_'.$id .'_'.$idmg. '.' . $extension);
 						}
-						//et aprés enregistrer l'image
-					move_uploaded_file($file['tmp_name'], IMAGES .'uploads\vehicules'. DS .'Mrk' .$this->Vehicle->id .'Mdl'.$this->Vehicle->id . '.' . $extension );
-					//enregistrer le nom de l'image dans la base de données
-					$this->Vehicle->saveField('image','Mrk' .$this->Vehicle->id .'Mdl'.$this->Vehicle->id . '.' . $extension);
 					}
+					$idmg  =  1 + $idmg;
 				}
+				exit();
 				$this->Session->setFlash(__('The vehicle has been saved.'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
