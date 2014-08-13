@@ -136,12 +136,10 @@
                                                         <div class="row">
                                                             <div class="col-sm-5 col-md-5">
                                                                 <div class="producer-logo">
-                                                                <?php echo $this->Image->resize('uploads/marks/'.h($vehicle['Mark']['image']),40,40,array('quality'=>100)); 
-                                                                ?>
-
-                                                                    
+                                                                    <?php 										 echo $this->Image->resize('uploads/marks/'.h($vehicle['Mark']['image']),50,50,array('quality'=>100));
+																			 ?>
                                                                 </div>
-                                                               
+
                                                               <?php echo $this->Html->link('Contactez Nous', array('controller' => 'pages', 'action' => 'contact'),array('class'=>'btn btn-primary')); ?>
                                                                 <div class="actions">
                                                                     <ul>
@@ -259,7 +257,24 @@
         <div class="picture">
             <div class="image-slider">
 
-                    <?php echo $this->Html->image('uploads/vehicules/'.h($car['Vehicle']['image']),array('height'=>'200px','width'=>'280px')); ?>
+            	<?php   
+            				$i = 1 ;
+                        	foreach ($otherimages as $img) {
+
+								//on prend les images de la véhicule en cours
+
+									if ($img['Imagesvehicle']['vehicle_id'] == $car['Vehicle']['id']) {
+										if($i<=3){
+										 
+										 echo '<a href="detail.html" class="slide">' . $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],255,191,array('quality'=>100));
+										 echo "</a>";
+
+										}
+										$i = $i +1;
+									}
+								}
+							
+						?>
                 
                 <div class="cycle-pager"></div><!-- /.cycle-pager -->
             </div><!-- /.image-slider -->
