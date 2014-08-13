@@ -59,16 +59,21 @@ class Contact extends AppModel {
 
 		);
 	public function send($d){
-		//debug($d);
+		debug($d);
+		//exit();
+		if ($this->validates()) {
+		/**/	
 		App::uses('CakeEmail','Network/Email');
 		$mail = new CakeEmail();
-		$mail->to("tahirekamal@gmail.com")
-		->from($d['email'])
-		->subject('Contact :: Site')
-		->emailFormat('html')
-		->template('contact')->viewVars(array($d))
-		;
-		return $mail->send();
+		$mail->config('default');
+		$mail->to("tahirekamal@gmail.com");
+		$mail->from('kanashi-sekai@hotmail.fr');
+		$mail->subject('Contact :: Site');
+		return $mail->send('Salut ça va '); 
+		}
+		else{
+			return false;
+		}
 	}	
 	
 }

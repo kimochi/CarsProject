@@ -1,5 +1,7 @@
 <?php
 App::uses('AppController', 'Controller');
+
+
 /**
  * Vehicles Controller
  *
@@ -379,6 +381,8 @@ public function showModele(){
  *
  * @return void
  */
+
+public $helpers = array('Image');
 	public function add() {
 		if ($this->request->is('post')) {
 			debug($this->request->data);
@@ -409,18 +413,15 @@ public function showModele(){
 								'image_file'=>''
 								));
 								if ($this->Vehicle->Imagesvehicle->save($data)) {
+									
 									$this->Vehicle->Imagesvehicle->saveField('image','car_'.$this->Vehicle->id .'_'.$this->Vehicle->Imagesvehicle->id. '.' . $extension);
 									move_uploaded_file($file['tmp_name'], IMAGES .'uploads\vehicules'. DS .'car_'.$this->Vehicle->id .'_'.$this->Vehicle->Imagesvehicle->id. '.' . $extension );
-									//tout c'est passé ok 
 								}
 								else{
 									$this->Session->setFlash(__('Erreur lors de l\'ajout des images.'));
 								}
 							}
 						}
-						//$i++;
-					
-					
 				}
 				//aprés le save sauvegarder l'image
 				
@@ -460,6 +461,7 @@ public function showModele(){
 					$idmg = current($idimg)['id'];
 				foreach ($images as $img) {
 					//$file=$img;
+					debug($img);
 					if (isset($img)) {
 						$extension = strtolower(pathinfo($img['name'],PATHINFO_EXTENSION));//l'extension jdida au cas ou bgha yzid l'image w hya makantch
 						

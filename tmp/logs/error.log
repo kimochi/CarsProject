@@ -74,3 +74,717 @@ Request URL: /Cakephp/js/jquery-2.0.3.min.map
 Stack Trace:
 #0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-08-12 20:11:22 Error: [SocketException] Could not send email.
+Request URL: /Cakephp/contact
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Network\Email\MailTransport.php(51): MailTransport->_mail('tahirekamal@gma...', 'Contact :: Site', '<!DOCTYPE html ...', 'From: targt@hot...', NULL)
+#1 C:\wamp\www\Cakephp\lib\Cake\Network\Email\CakeEmail.php(1122): MailTransport->send(Object(CakeEmail))
+#2 C:\wamp\www\Cakephp\app\Model\Contact.php(71): CakeEmail->send()
+#3 C:\wamp\www\Cakephp\app\Controller\ContactController.php(13): Contact->send(Array)
+#4 [internal function]: ContactController->index()
+#5 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ContactController), Array)
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-08-12 20:23:46 Error: [SocketException] Could not send email.
+Request URL: /Cakephp/contact
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Network\Email\MailTransport.php(51): MailTransport->_mail('tahirekamal@gma...', 'Contact :: Site', '<!DOCTYPE html ...', 'From: targt@hot...', NULL)
+#1 C:\wamp\www\Cakephp\lib\Cake\Network\Email\CakeEmail.php(1122): MailTransport->send(Object(CakeEmail))
+#2 C:\wamp\www\Cakephp\app\Model\Contact.php(71): CakeEmail->send()
+#3 C:\wamp\www\Cakephp\app\Controller\ContactController.php(13): Contact->send(Array)
+#4 [internal function]: ContactController->index()
+#5 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ContactController), Array)
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-08-12 20:26:22 Error: [SocketException] Could not send email.
+Request URL: /Cakephp/contact
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Network\Email\MailTransport.php(51): MailTransport->_mail('tahirekamal@gma...', 'Contact :: Site', '<!DOCTYPE html ...', 'From: targt@hot...', NULL)
+#1 C:\wamp\www\Cakephp\lib\Cake\Network\Email\CakeEmail.php(1122): MailTransport->send(Object(CakeEmail))
+#2 C:\wamp\www\Cakephp\app\Model\Contact.php(75): CakeEmail->send()
+#3 C:\wamp\www\Cakephp\app\Controller\ContactController.php(13): Contact->send(Array)
+#4 [internal function]: ContactController->index()
+#5 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ContactController), Array)
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-08-12 20:28:38 Error: [SocketException] Could not send email.
+Request URL: /Cakephp/contact
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Network\Email\MailTransport.php(51): MailTransport->_mail('tahirekamal@gma...', 'Contact :: Site', '<!DOCTYPE html ...', 'From: targt@hot...', NULL)
+#1 C:\wamp\www\Cakephp\lib\Cake\Network\Email\CakeEmail.php(1122): MailTransport->send(Object(CakeEmail))
+#2 C:\wamp\www\Cakephp\app\Model\Contact.php(75): CakeEmail->send()
+#3 C:\wamp\www\Cakephp\app\Controller\ContactController.php(13): Contact->send(Array)
+#4 [internal function]: ContactController->index()
+#5 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ContactController), Array)
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-08-12 20:33:16 Error: [SocketException] Could not send email.
+Request URL: /Cakephp/contact
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Network\Email\MailTransport.php(51): MailTransport->_mail('tahirekamal@gma...', 'Contact :: Site', '<!DOCTYPE html ...', 'From: targt@hot...', NULL)
+#1 C:\wamp\www\Cakephp\lib\Cake\Network\Email\CakeEmail.php(1122): MailTransport->send(Object(CakeEmail))
+#2 C:\wamp\www\Cakephp\app\Model\Contact.php(75): CakeEmail->send()
+#3 C:\wamp\www\Cakephp\app\Controller\ContactController.php(13): Contact->send(Array)
+#4 [internal function]: ContactController->index()
+#5 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ContactController), Array)
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-08-12 20:57:01 Error: [SocketException] Could not send email.
+Request URL: /Cakephp/contact
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Network\Email\MailTransport.php(51): MailTransport->_mail('tahirekamal@gma...', 'Contact :: Site', 'Salut \xC3\xA7a va \r\n...', 'From: target@gm...', NULL)
+#1 C:\wamp\www\Cakephp\lib\Cake\Network\Email\CakeEmail.php(1122): MailTransport->send(Object(CakeEmail))
+#2 C:\wamp\www\Cakephp\app\Model\Contact.php(72): CakeEmail->send('Salut \xC3\xA7a va ')
+#3 C:\wamp\www\Cakephp\app\Controller\ContactController.php(13): Contact->send(Array)
+#4 [internal function]: ContactController->index()
+#5 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ContactController), Array)
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-08-12 20:57:32 Error: [SocketException] Could not send email.
+Request URL: /Cakephp/contact
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Network\Email\MailTransport.php(51): MailTransport->_mail('tahirekamal@gma...', 'Contact :: Site', 'Salut \xC3\xA7a va \r\n...', 'From: target@gm...', NULL)
+#1 C:\wamp\www\Cakephp\lib\Cake\Network\Email\CakeEmail.php(1122): MailTransport->send(Object(CakeEmail))
+#2 C:\wamp\www\Cakephp\app\Model\Contact.php(70): CakeEmail->send('Salut \xC3\xA7a va ')
+#3 C:\wamp\www\Cakephp\app\Controller\ContactController.php(13): Contact->send(Array)
+#4 [internal function]: ContactController->index()
+#5 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ContactController), Array)
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-08-12 21:02:41 Error: [SocketException] Invalid email: "you@localhost"
+Request URL: /Cakephp/contact
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Network\Email\CakeEmail.php(596): CakeEmail->_setEmail('_from', 'you@localhost', NULL)
+#1 C:\wamp\www\Cakephp\lib\Cake\Network\Email\CakeEmail.php(368): CakeEmail->_setEmailSingle('_from', 'you@localhost', NULL, 'From requires o...')
+#2 C:\wamp\www\Cakephp\lib\Cake\Network\Email\CakeEmail.php(1213): CakeEmail->from('you@localhost')
+#3 C:\wamp\www\Cakephp\lib\Cake\Network\Email\CakeEmail.php(1097): CakeEmail->_applyConfig('default')
+#4 C:\wamp\www\Cakephp\app\Model\Contact.php(68): CakeEmail->config('default')
+#5 C:\wamp\www\Cakephp\app\Controller\ContactController.php(13): Contact->send(Array)
+#6 [internal function]: ContactController->index()
+#7 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ContactController), Array)
+#8 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-08-12 21:03:01 Error: [SocketException] Could not send email.
+Request URL: /Cakephp/contact
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Network\Email\MailTransport.php(51): MailTransport->_mail('tahirekamal@gma...', 'Contact :: Site', 'Salut \xC3\xA7a va \r\n...', 'From: target@gm...', NULL)
+#1 C:\wamp\www\Cakephp\lib\Cake\Network\Email\CakeEmail.php(1122): MailTransport->send(Object(CakeEmail))
+#2 C:\wamp\www\Cakephp\app\Model\Contact.php(72): CakeEmail->send('Salut \xC3\xA7a va ')
+#3 C:\wamp\www\Cakephp\app\Controller\ContactController.php(13): Contact->send(Array)
+#4 [internal function]: ContactController->index()
+#5 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ContactController), Array)
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-08-12 21:07:01 Error: [SocketException] Invalid email: "kanashi-sekai@hotmailfr"
+Request URL: /Cakephp/contact
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Network\Email\CakeEmail.php(596): CakeEmail->_setEmail('_from', 'kanashi-sekai@h...', NULL)
+#1 C:\wamp\www\Cakephp\lib\Cake\Network\Email\CakeEmail.php(368): CakeEmail->_setEmailSingle('_from', 'kanashi-sekai@h...', NULL, 'From requires o...')
+#2 C:\wamp\www\Cakephp\app\Model\Contact.php(70): CakeEmail->from('kanashi-sekai@h...')
+#3 C:\wamp\www\Cakephp\app\Controller\ContactController.php(13): Contact->send(Array)
+#4 [internal function]: ContactController->index()
+#5 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ContactController), Array)
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-08-12 21:07:13 Error: [SocketException] Could not send email.
+Request URL: /Cakephp/contact
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Network\Email\MailTransport.php(51): MailTransport->_mail('tahirekamal@gma...', 'Contact :: Site', 'Salut \xC3\xA7a va \r\n...', 'From: kanashi-s...', NULL)
+#1 C:\wamp\www\Cakephp\lib\Cake\Network\Email\CakeEmail.php(1122): MailTransport->send(Object(CakeEmail))
+#2 C:\wamp\www\Cakephp\app\Model\Contact.php(72): CakeEmail->send('Salut \xC3\xA7a va ')
+#3 C:\wamp\www\Cakephp\app\Controller\ContactController.php(13): Contact->send(Array)
+#4 [internal function]: ContactController->index()
+#5 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ContactController), Array)
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ContactController), Object(CakeRequest), Object(CakeResponse))
+#8 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-08-13 18:18:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 18:19:31 Error: Fatal Error (4): syntax error, unexpected ',', expecting ')' in [C:\wamp\www\Cakephp\app\View\Vehicles\index.ctp, line 143]
+2014-08-13 18:19:31 Error: [FatalErrorException] syntax error, unexpected ',', expecting ')'
+Request URL: /Cakephp/vehicles
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 143)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 143, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 143, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-13 18:19:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 18:19:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 18:20:49 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota1.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota1.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 18:20:49 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota2.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota2.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 18:20:50 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota4.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota4.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 18:20:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 18:20:50 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota3.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota3.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 18:20:51 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota5.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota5.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 19:33:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 19:33:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 19:34:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 19:41:09 Error: Fatal Error (4): syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION) in [C:\wamp\www\Cakephp\app\Controller\VehiclesController.php, line 382]
+2014-08-13 19:41:09 Error: [FatalErrorException] syntax error, unexpected 'App' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /Cakephp/vehicles/add
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 382)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 382, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 382, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-13 19:41:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 19:41:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 19:43:19 Error: Fatal Error (1): Class 'ImageComponent' not found in [C:\wamp\www\Cakephp\app\Controller\VehiclesController.php, line 415]
+2014-08-13 19:43:19 Error: [FatalErrorException] Class 'ImageComponent' not found
+Request URL: /Cakephp/vehicles/add
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 415)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 415, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 415, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-13 19:43:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 19:44:38 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota1.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota1.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 19:44:39 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota2.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota2.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 19:44:40 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota5.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota5.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 19:44:40 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota3.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota3.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 19:44:40 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota4.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota4.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 19:48:40 Error: Fatal Error (1): Class 'ImageComponent' not found in [C:\wamp\www\Cakephp\app\Controller\VehiclesController.php, line 386]
+2014-08-13 19:48:40 Error: [FatalErrorException] Class 'ImageComponent' not found
+Request URL: /Cakephp/vehicles/add
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 386)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 386, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 386, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-13 19:48:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 19:48:43 Error: Fatal Error (1): Class 'ImageComponent' not found in [C:\wamp\www\Cakephp\app\Controller\VehiclesController.php, line 386]
+2014-08-13 19:48:43 Error: [FatalErrorException] Class 'ImageComponent' not found
+Request URL: /Cakephp/vehicles/add
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 386)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 386, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 386, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-13 19:49:36 Error: Fatal Error (1): Class 'Image' not found in [C:\wamp\www\Cakephp\app\Controller\VehiclesController.php, line 386]
+2014-08-13 19:49:36 Error: [FatalErrorException] Class 'Image' not found
+Request URL: /Cakephp/vehicles/add
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Image' n...', 'C:\\wamp\\www\\Cak...', 386)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Image' n...', 'C:\\wamp\\www\\Cak...', 386, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Image' n...', 'C:\\wamp\\www\\Cak...', 386, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-13 19:49:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 19:49:39 Error: Fatal Error (1): Class 'Image' not found in [C:\wamp\www\Cakephp\app\Controller\VehiclesController.php, line 386]
+2014-08-13 19:49:39 Error: [FatalErrorException] Class 'Image' not found
+Request URL: /Cakephp/vehicles/add
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Image' n...', 'C:\\wamp\\www\\Cak...', 386)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Image' n...', 'C:\\wamp\\www\\Cak...', 386, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Image' n...', 'C:\\wamp\\www\\Cak...', 386, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-13 19:53:33 Error: Fatal Error (1): Class 'ImageComponent' not found in [C:\wamp\www\Cakephp\app\Controller\VehiclesController.php, line 389]
+2014-08-13 19:53:33 Error: [FatalErrorException] Class 'ImageComponent' not found
+Request URL: /Cakephp/vehicles/add
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 389)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 389, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 389, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-13 19:53:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 19:53:39 Error: Fatal Error (1): Class 'ImageComponent' not found in [C:\wamp\www\Cakephp\app\Controller\VehiclesController.php, line 389]
+2014-08-13 19:53:39 Error: [FatalErrorException] Class 'ImageComponent' not found
+Request URL: /Cakephp/vehicles/add
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 389)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 389, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 389, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-13 19:53:39 Error: Fatal Error (1): Class 'ImageComponent' not found in [C:\wamp\www\Cakephp\app\Controller\VehiclesController.php, line 389]
+2014-08-13 19:53:39 Error: [FatalErrorException] Class 'ImageComponent' not found
+Request URL: /Cakephp/vehicles/add
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 389)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 389, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 389, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-13 19:53:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 19:53:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 19:53:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 19:53:54 Error: Fatal Error (1): Class 'ImageComponent' not found in [C:\wamp\www\Cakephp\app\Controller\VehiclesController.php, line 389]
+2014-08-13 19:53:54 Error: [FatalErrorException] Class 'ImageComponent' not found
+Request URL: /Cakephp/vehicles/add
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 389)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 389, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 389, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-13 19:53:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 19:54:26 Error: Fatal Error (1): Class 'ImageComponent' not found in [C:\wamp\www\Cakephp\app\Controller\VehiclesController.php, line 389]
+2014-08-13 19:54:26 Error: [FatalErrorException] Class 'ImageComponent' not found
+Request URL: /Cakephp/vehicles/add
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 389)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 389, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ImageCom...', 'C:\\wamp\\www\\Cak...', 389, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-13 19:54:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 19:59:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 19:59:45 Error: [MissingHelperException] Helper class CaptchaHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CaptchaHelper',
+  'plugin' => false,
+)
+Request URL: /Cakephp/vehicles/view/39
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(867): HelperCollection->load('Captcha', Array)
+#1 C:\wamp\www\Cakephp\lib\Cake\View\View.php(341): View->loadHelpers()
+#2 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(1240): View->__construct(Object(VehiclesController))
+#3 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(938): Controller->_getViewObject()
+#4 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2014-08-13 19:59:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 20:00:07 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota1.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota1.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 20:00:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 20:00:08 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota4.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota4.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 20:00:09 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota5.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota5.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 20:00:09 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota3.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota3.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 20:00:10 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota2.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota2.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 20:01:19 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota2.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota2.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 21:40:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 21:43:17 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\Cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 802]
+2014-08-13 21:43:17 Error: [FatalErrorException] Unsupported operand types
+Request URL: /Cakephp/
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\wamp\\www\\Cak...', 802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\wamp\\www\\Cak...', 802, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\wamp\\www\\Cak...', 802, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-13 21:43:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 21:43:21 Error: Fatal Error (1): Unsupported operand types in [C:\wamp\www\Cakephp\lib\Cake\View\Helper\HtmlHelper.php, line 802]
+2014-08-13 21:43:21 Error: [FatalErrorException] Unsupported operand types
+Request URL: /Cakephp/
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'C:\\wamp\\www\\Cak...', 802)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'C:\\wamp\\www\\Cak...', 802, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'C:\\wamp\\www\\Cak...', 802, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-13 21:44:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 21:44:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 21:47:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 21:47:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 21:54:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 21:54:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 21:55:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -123,7 +123,8 @@
 								//on prend les images de la véhicule en cours
 									if ($img['Imagesvehicle']['vehicle_id'] == $vehicles[0]['Vehicle']['id']) {
 										//echo $this->Html->link($title, array('controller' => '', 'action' => ''));
-										 echo $this->Html->image('uploads/vehicules/'.$img['Imagesvehicle']['image'],array('width'=>'625','height'=>'410','class'=>"slide"));
+										 echo $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],652,409,array('width'=>'640','height'=>'480','class'=>"slide",'quality'=>100));
+
 										 break;
 									}
 								}
@@ -140,7 +141,7 @@
 								//on prend les images de la véhicule en cours
 									if ($img['Imagesvehicle']['vehicle_id'] == $vehicles[1]['Vehicle']['id']) {
 										//echo $this->Html->link($title, array('controller' => '', 'action' => ''));
-										 echo $this->Html->image('uploads/vehicules/'.$img['Imagesvehicle']['image'],array('width'=>'625','height'=>'410','class'=>"slide"));
+										 echo $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],652,409,array('width'=>'640','height'=>'480','class'=>"slide",'quality'=>100));
 										 break;
 									}
 								}
@@ -156,7 +157,7 @@
 								//on prend les images de la véhicule en cours
 									if ($img['Imagesvehicle']['vehicle_id'] == $vehicles[2]['Vehicle']['id']) {
 										//echo $this->Html->link($title, array('controller' => '', 'action' => ''));
-										 echo $this->Html->image('uploads/vehicules/'.$img['Imagesvehicle']['image'],array('width'=>'625','height'=>'410','class'=>"slide"));
+										 echo $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],652,409,array('width'=>'640','height'=>'480','class'=>"slide",'quality'=>100));
 										 break;
 									}
 								}
@@ -197,23 +198,6 @@
                                                         <?php echo $this->Form->input('modele_id',array('empty'=>'Selectionnez le modéle','class'=>'model','options'=>'null','label'=>'')); ?>
 
                                                     </div><!-- /.form-group -->
-
-
-												<script>
-                                                	$('select.mark').change(function(){
-                                                		//alert('changed');
-														$.get('Vehicles/showModele',{id:$('select.mark option:selected').attr('value')},
-															function(data){
-																$('#VehicleModeleId_chosen').remove();
-																$('.model').css('display','block');
-																$('.model').addClass('chosen-container chosen-container-single chosen-with-drop chosen-container-active');
-																//$('.model').css('display','block');
-																var obj = jQuery.parseJSON(data);
-																$('.model').html(obj);
-															}
-														);
-													});
-                                                </script>
                                                     <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6 year-from">
                                                        <?php echo $this->Form->year('year', 1930,date('Y'),array('empty'=>"Année ")); ?>
                                                     </div><!-- /.form-group -->                     
@@ -228,7 +212,6 @@
                                                         	echo $this->Form->end($options); ?>
                                                     		<?php echo $this->Html->link('Plus de critéres + ', array('controller' => 'vehicles', 'action' => 'search')); ?>
                                                 </div><!-- /.form-group -->
-                                            </form>
                                         </div><!-- /.tab-pane -->
                                     </div><!-- /.tab-content -->
                                 </div><!-- /.inner -->
@@ -280,7 +263,7 @@
 								//on prend les images de la véhicule en cours
 									if ($img['Imagesvehicle']['vehicle_id'] == $vehicle['Vehicle']['id']) {
 										//echo $this->Html->link($title, array('controller' => '', 'action' => ''));
-										 echo $this->Html->image('uploads/vehicules/'.$img['Imagesvehicle']['image'],array('width'=>'625','height'=>'410','class'=>"slide"));
+										echo $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],255,191,array('width'=>'640','height'=>'480','class'=>"slide",'quality'=>100));
 										 
 									}
 								}
@@ -1174,11 +1157,13 @@
 			</div><!-- /.col-md-2 -->
 		</div><!-- /.row -->
 	</div><!-- /.inner-block -->
-</div><!-- /.partners-block -->                </div><!-- /.col-md-12 -->
+</div><!-- /.partners-block -->                
+</div><!-- /.col-md-12 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
     </div><!-- /.section -->
-</div>    
+</div> 
+   
 <div class="vehicles index">
 	<h2><?php echo __('Vehicles'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
@@ -1260,3 +1245,18 @@
 		<li><?php echo $this->Html->link(__('New Modele'), array('controller' => 'modeles', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
+<script>
+                                                	$('select.mark').change(function(){
+                                                		//alert('changed');
+														$.get('Vehicles/showModele',{id:$('select.mark option:selected').attr('value')},
+															function(data){
+																$('#VehicleModeleId_chosen').remove();
+																$('.model').css('display','block');
+																$('.model').addClass('chosen-container chosen-container-single chosen-with-drop chosen-container-active');
+																//$('.model').css('display','block');
+																var obj = jQuery.parseJSON(data);
+																$('.model').html(obj);
+															}
+														);
+													});
+</script>
