@@ -44,27 +44,27 @@
                                                 <div class="gallery">
                                                     <div class="slide active">
                                                         <div class="picture-wrapper">
-                                                            <img src="assets/img/content/toyota1.jpg" alt="#">
+                                                            <?php echo $this->Html->image('content/toyota1.jpg'); ?>
                                                         </div>
                                                     </div>
                                                     <div class="slide">
                                                         <div class="picture-wrapper">
-                                                            <img src="assets/img/content/toyota2.jpg" alt="#">
+                                                        <?php echo $this->Html->image('content/toyota2.jpg'); ?>
                                                         </div>
                                                     </div>
                                                     <div class="slide">
                                                         <div class="picture-wrapper">
-                                                            <img src="assets/img/content/toyota3.jpg" alt="#">
+                                                            <?php echo $this->Html->image('content/toyota3.jpg'); ?>
                                                         </div>
                                                     </div>
                                                     <div class="slide">
                                                         <div class="picture-wrapper">
-                                                            <img src="assets/img/content/toyota4.jpg" alt="#">
+                                                            <?php echo $this->Html->image('content/toyota4.jpg'); ?>
                                                         </div>
                                                     </div>
                                                     <div class="slide">
                                                         <div class="picture-wrapper">
-                                                            <img src="assets/img/content/toyota5.jpg" alt="#">
+                                                            <?php echo $this->Html->image('content/toyota5.jpg'); ?>
                                                         </div>
                                                     </div>
                                                 </div><!-- /.gallery -->
@@ -84,21 +84,20 @@
 
 
                                                 <div class="gallery-thumbnails">
-                                                
                                                     <div class="thumbnail-0">
-                                                        <img src="assets/img/content/toyota1.jpg" alt="#">
+                                                       <?php echo $this->Html->image('content/toyota1.jpg'); ?>
                                                     </div>
                                                     <div class="thumbnail-1">
-                                                        <img src="assets/img/content/toyota2.jpg" alt="#">
+                                                        <?php echo $this->Html->image('content/toyota2.jpg'); ?>
                                                     </div>
                                                     <div class="thumbnail-2">
-                                                        <img src="assets/img/content/toyota3.jpg" alt="#">
+                                                        <?php echo $this->Html->image('content/toyota3.jpg'); ?>
                                                     </div>
                                                     <div class="thumbnail-3">
-                                                        <img src="assets/img/content/toyota4.jpg" alt="#">
+                                                     <?php echo $this->Html->image('content/toyota4.jpg'); ?>
                                                     </div>
                                                     <div class="thumbnail-4">
-                                                        <img src="assets/img/content/toyota5.jpg" alt="#">
+                                                        <?php echo $this->Html->image('content/toyota5.jpg'); ?>
                                                     </div>
                                                 </div><!-- /.gallery-thumbnails -->
 

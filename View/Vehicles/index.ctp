@@ -10,8 +10,9 @@
                         <div class="overview active">
                             <div class="overview-table">
                                 <div class="item title">
-                                <h3><?php echo $this->Html->link($vehicles[0]['Mark']['name']. ' '.$vehicles[0]['Modele']['name'], array('controller' => 'vehicles', 'action' => 'view',$vehicles[0]['Vehicle']['id'])); ?>
-                                    <?php //echo $vehicles[0]['Mark']['name']. ' '.$vehicles[0]['Modele']['name']  ;?></h3>
+                                	<h3><?php echo $this->Html->link($vehicles[0]['Mark']['name']. ' '.$vehicles[0]['Modele']['name'], array('controller' => 'vehicles', 'action' => 'view',$vehicles[0]['Vehicle']['id'])); ?>
+
+                                   </h3>
                                 </div><!-- /.item -->
 
                                 <div class="item tags">
@@ -112,58 +113,70 @@
                         </div><!-- /.slider-navigation -->
                     </div><!-- /.overviews -->
                 </div>
-
-
-                <div class="col-md-7 col-sm-7">
-                    <div id="slider">
-                        <div class="slide active">
-                        <?php   
+						<?php   
                         //debug($images);
 							foreach ($images as $img) {
 								//on prend les images de la véhicule en cours
 									if ($img['Imagesvehicle']['vehicle_id'] == $vehicles[0]['Vehicle']['id']) {
 										//echo $this->Html->link($title, array('controller' => '', 'action' => ''));
-										 echo $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],652,409,array('width'=>'640','height'=>'480','class'=>"slide",'quality'=>100));
+										// echo $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],652,409,array('width'=>'640','height'=>'480','class'=>"slide",'quality'=>100));
+										 $im = $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],652,409,array('width'=>'640','height'=>'480','class'=>"slide",'quality'=>100));
 
 										 break;
 									}
 								}
 							
 						?>
+
+                <div class="col-md-7 col-sm-7">
+                    <div id="slider">
+                        <div class="slide active">
                         
-                            <?php //echo  $this->Html->image('uploads/vehicules/'.$vehicles[0]['Vehicle']['image'],array('width'=>'625','height'=>'410')); ?>
+                            <?php   
+                        	foreach ($images as $img) {
+								//on prend les images de la véhicule en cours
+									if ($img['Imagesvehicle']['vehicle_id'] == $vehicles[0]['Vehicle']['id']) {
+										
+										 echo $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],652,409,array('quality'=>100));
+
+										 break;
+									}
+								}
+							
+						?>
                             <div class="color-overlay"></div><!-- /.color-overlay -->
                         </div><!-- /.slide -->
 
                         <div class="slide">
-                        <?php   
-							foreach ($images as $img) {
+                        
+                        		    <?php   
+                        	foreach ($images as $img) {
 								//on prend les images de la véhicule en cours
 									if ($img['Imagesvehicle']['vehicle_id'] == $vehicles[1]['Vehicle']['id']) {
 										//echo $this->Html->link($title, array('controller' => '', 'action' => ''));
-										 echo $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],652,409,array('width'=>'640','height'=>'480','class'=>"slide",'quality'=>100));
+										 echo $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],652,409,array('quality'=>100));
+
 										 break;
 									}
 								}
 							
 						?>
-                            <?php //echo  $this->Html->image('uploads/vehicules/'.$vehicles[1]['Vehicle']['image'],array('width'=>'625','height'=>'410')); ?>
                             <div class="color-overlay"></div><!-- /.color-overlay -->
                         </div><!-- /.slide -->
 
                         <div class="slide">
-                        <?php   
-							foreach ($images as $img) {
+                           <?php   
+                        	foreach ($images as $img) {
 								//on prend les images de la véhicule en cours
 									if ($img['Imagesvehicle']['vehicle_id'] == $vehicles[2]['Vehicle']['id']) {
 										//echo $this->Html->link($title, array('controller' => '', 'action' => ''));
-										 echo $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],652,409,array('width'=>'640','height'=>'480','class'=>"slide",'quality'=>100));
+										 echo $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],652,409,array('quality'=>100));
+
 										 break;
 									}
 								}
 							
 						?>
-                            <?php //echo  $this->Html->image('uploads/vehicules/'.$vehicles[2]['Vehicle']['image'],array('width'=>'625','height'=>'410')); ?>
                             <div class="color-overlay"></div><!-- /.color-overlay -->
                         </div><!-- /.slide -->
                     </div><!-- /#slider -->

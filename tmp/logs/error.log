@@ -788,3 +788,435 @@ Request URL: /Cakephp/js/jquery-2.0.3.min.map
 Stack Trace:
 #0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-08-13 21:59:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:03:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:03:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:04:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:05:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:07:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:07:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:08:45 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/assets/img/slides/toyota.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:08:45 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/assets/img/slides/toyota-1.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:08:46 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/assets/img/slides/toyota-2.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:08:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:08:49 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/assets/img/slides/toyota.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:08:49 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/assets/img/slides/toyota-2.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:09:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:11:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:13:11 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/assets/img/slides/toyota-1.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:13:11 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/assets/img/slides/toyota.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:13:11 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/assets/img/slides/toyota-2.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:13:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:13:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/assets/img/slides/toyota.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:13:17 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/assets/img/slides/toyota-2.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:14:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:15:52 Error: [MissingControllerException] Controller class SlidesController could not be found.
+Exception Attributes: array (
+  'class' => 'SlidesController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/slides/toyota-1.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:15:52 Error: [MissingControllerException] Controller class SlidesController could not be found.
+Exception Attributes: array (
+  'class' => 'SlidesController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/slides/toyota.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:15:52 Error: [MissingControllerException] Controller class SlidesController could not be found.
+Exception Attributes: array (
+  'class' => 'SlidesController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/slides/toyota-2.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:15:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:15:56 Error: [MissingControllerException] Controller class SlidesController could not be found.
+Exception Attributes: array (
+  'class' => 'SlidesController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/slides/toyota-2.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:15:56 Error: [MissingControllerException] Controller class SlidesController could not be found.
+Exception Attributes: array (
+  'class' => 'SlidesController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/slides/toyota.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:16:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:17:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:18:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:19:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:20:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:20:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:22:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:22:45 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota1.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota1.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 22:22:46 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota2.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota2.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 22:22:47 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota3.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota3.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 22:22:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:22:47 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota4.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota4.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 22:22:48 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota5.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota5.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 22:27:56 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota1.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota1.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 22:27:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-13 22:27:57 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota2.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota2.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 22:27:57 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota3.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota3.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 22:27:58 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota4.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota4.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 22:27:59 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/assets/img/content/toyota5.jpg
+Stack Trace:
+#0 [internal function]: VehiclesController->view('assets', 'img', 'content', 'toyota5.jpg')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-13 22:28:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/js/jquery-2.0.3.min.map
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
