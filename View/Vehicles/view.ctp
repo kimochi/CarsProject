@@ -44,27 +44,31 @@
                                                 <div class="gallery">
                                                     <div class="slide active">
                                                         <div class="picture-wrapper">
-                                                            <?php echo $this->Html->image('content/toyota1.jpg'); ?>
+                                                        	<?php 
+                                                        	echo $this->Image->resize('uploads/vehicules/'.$images[0]['Imagesvehicle']['image'],555,416,array('quality'=>100));
+                                                        	 ?>
                                                         </div>
                                                     </div>
                                                     <div class="slide">
                                                         <div class="picture-wrapper">
-                                                        <?php echo $this->Html->image('content/toyota2.jpg'); ?>
+                                                        <?php 
+                                                        	echo $this->Image->resize('uploads/vehicules/'.$images[1]['Imagesvehicle']['image'],555,416,array('quality'=>100));
+                                                        	 ?>
                                                         </div>
                                                     </div>
                                                     <div class="slide">
                                                         <div class="picture-wrapper">
-                                                            <?php echo $this->Html->image('content/toyota3.jpg'); ?>
+                                                           <?php echo $this->Image->resize('uploads/vehicules/'.$images[2]['Imagesvehicle']['image'],555,416,array('quality'=>100)); ?>
                                                         </div>
                                                     </div>
                                                     <div class="slide">
                                                         <div class="picture-wrapper">
-                                                            <?php echo $this->Html->image('content/toyota4.jpg'); ?>
+                                                            <?php echo $this->Image->resize('uploads/vehicules/'.$images[3]['Imagesvehicle']['image'],555,416,array('quality'=>100)); ?>
                                                         </div>
                                                     </div>
                                                     <div class="slide">
                                                         <div class="picture-wrapper">
-                                                            <?php echo $this->Html->image('content/toyota5.jpg'); ?>
+                                                            <?php echo $this->Image->resize('uploads/vehicules/'.$images[4]['Imagesvehicle']['image'],555,416,array('quality'=>100)); ?>
                                                         </div>
                                                     </div>
                                                 </div><!-- /.gallery -->
@@ -85,19 +89,19 @@
 
                                                 <div class="gallery-thumbnails">
                                                     <div class="thumbnail-0">
-                                                       <?php echo $this->Html->image('content/toyota1.jpg'); ?>
+                                                       <?php echo $this->Image->resize('uploads/vehicules/'.$images[0]['Imagesvehicle']['image'],80,60,array('quality'=>100)); ?>
                                                     </div>
                                                     <div class="thumbnail-1">
-                                                        <?php echo $this->Html->image('content/toyota2.jpg'); ?>
+                                                        <?php echo $this->Image->resize('uploads/vehicules/'.$images[1]['Imagesvehicle']['image'],80,60,array('quality'=>100)); ?>
                                                     </div>
                                                     <div class="thumbnail-2">
-                                                        <?php echo $this->Html->image('content/toyota3.jpg'); ?>
+                                                        <?php echo $this->Image->resize('uploads/vehicules/'.$images[2]['Imagesvehicle']['image'],80,60,array('quality'=>100)); ?>
                                                     </div>
                                                     <div class="thumbnail-3">
-                                                     <?php echo $this->Html->image('content/toyota4.jpg'); ?>
+                                                    <?php echo $this->Image->resize('uploads/vehicules/'.$images[3]['Imagesvehicle']['image'],80,60,array('quality'=>100)); ?>
                                                     </div>
                                                     <div class="thumbnail-4">
-                                                        <?php echo $this->Html->image('content/toyota5.jpg'); ?>
+                                                        <?php echo $this->Image->resize('uploads/vehicules/'.$images[4]['Imagesvehicle']['image'],80,60,array('quality'=>100)); ?>
                                                     </div>
                                                 </div><!-- /.gallery-thumbnails -->
 
@@ -132,7 +136,10 @@
                                                         <div class="row">
                                                             <div class="col-sm-5 col-md-5">
                                                                 <div class="producer-logo">
-                                                                    <?php echo $this->Html->image('uploads/marks/'.h($vehicle['Mark']['image']), array('alt' => h($vehicle['Mark']['name']),'height'=>'100px', 'width'=>'100px')); ?>
+                                                                <?php echo $this->Image->resize('uploads/marks/'.h($vehicle['Mark']['image']),40,40,array('quality'=>100)); 
+                                                                ?>
+
+                                                                    
                                                                 </div>
                                                                
                                                               <?php echo $this->Html->link('Contactez Nous', array('controller' => 'pages', 'action' => 'contact'),array('class'=>'btn btn-primary')); ?>

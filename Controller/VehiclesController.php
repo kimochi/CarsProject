@@ -367,7 +367,10 @@ public function showModele(){
 			throw new NotFoundException(__('Invalid vehicle'));
 		}
 		
-		$this->set('images',($this->Vehicle->Imagesvehicle->find('all')));
+		$this->set('images',($this->Vehicle->Imagesvehicle->find('all',array('conditions'=>array('Imagesvehicle.vehicle_id'=>$id),'fields'=>'image'))));
+		/*
+		debug($this->Vehicle->Imagesvehicle->find('all',array('conditions'=>array('Imagesvehicle.vehicle_id'=>$id),'fields'=>'image')));
+		exit();*/
 		$options = array('conditions' => array('Vehicle.' . $this->Vehicle->primaryKey => $id));
 		$this->set('vehicle', $this->Vehicle->find('first', $options));
 		//debug($this->Vehicle->find('first', $options)['Mark']['id']);
