@@ -2476,3 +2476,816 @@ Stack Trace:
 #3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-08-14 15:56:18 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\about-us.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\about-us.jpg.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/about-us.jpg
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/abou...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/abou...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/abou...')
+#3 [internal function]: PagesController->display('assets', 'img', 'about-us.jpg')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:56:19 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\testimonials-3.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\testimonials-3.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/testimonials-3.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/test...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/test...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/test...')
+#3 [internal function]: PagesController->display('assets', 'img', 'testimonials-3....')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:56:19 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\testimonials-2.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\testimonials-2.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/testimonials-2.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/test...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/test...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/test...')
+#3 [internal function]: PagesController->display('assets', 'img', 'testimonials-2....')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:56:20 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\testimonials-4.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\testimonials-4.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/testimonials-4.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/test...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/test...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/test...')
+#3 [internal function]: PagesController->display('assets', 'img', 'testimonials-4....')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:56:20 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\volkswagen.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\volkswagen.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/volkswagen.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'volkswagen.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:56:21 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\testimonials-1.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\testimonials-1.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/testimonials-1.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/test...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/test...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/test...')
+#3 [internal function]: PagesController->display('assets', 'img', 'testimonials-1....')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:56:21 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\ford.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\ford.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/ford.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'ford.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:56:22 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\honda.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\honda.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/honda.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'honda.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:56:23 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\mercedes.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\mercedes.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/mercedes.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'mercedes.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:56:23 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\toyota.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\toyota.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/toyota.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'toyota.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:56:24 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\bmw.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\bmw.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/bmw.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'bmw.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:58:25 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\about-us.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\about-us.jpg.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/about-us.jpg
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/abou...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/abou...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/abou...')
+#3 [internal function]: PagesController->display('assets', 'img', 'about-us.jpg')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:58:26 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\testimonials-2.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\testimonials-2.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/testimonials-2.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/test...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/test...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/test...')
+#3 [internal function]: PagesController->display('assets', 'img', 'testimonials-2....')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:58:27 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\testimonials-1.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\testimonials-1.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/testimonials-1.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/test...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/test...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/test...')
+#3 [internal function]: PagesController->display('assets', 'img', 'testimonials-1....')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:58:27 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\testimonials-3.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\testimonials-3.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/testimonials-3.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/test...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/test...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/test...')
+#3 [internal function]: PagesController->display('assets', 'img', 'testimonials-3....')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:58:28 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\volkswagen.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\volkswagen.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/volkswagen.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'volkswagen.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:58:28 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\testimonials-4.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\testimonials-4.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/testimonials-4.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/test...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/test...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/test...')
+#3 [internal function]: PagesController->display('assets', 'img', 'testimonials-4....')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:58:28 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\ford.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\ford.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/ford.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'ford.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:58:29 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\honda.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\honda.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/honda.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'honda.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:58:29 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\mercedes.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\mercedes.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/mercedes.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'mercedes.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:58:29 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\toyota.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\toyota.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/toyota.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'toyota.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:58:30 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\bmw.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\bmw.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/bmw.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'bmw.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:59:38 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\testimonials-1.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\testimonials-1.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/testimonials-1.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/test...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/test...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/test...')
+#3 [internal function]: PagesController->display('assets', 'img', 'testimonials-1....')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:59:38 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\volkswagen.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\volkswagen.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/volkswagen.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'volkswagen.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:59:39 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\testimonials-2.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\testimonials-2.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/testimonials-2.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/test...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/test...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/test...')
+#3 [internal function]: PagesController->display('assets', 'img', 'testimonials-2....')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:59:39 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\ford.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\ford.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/ford.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'ford.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:59:40 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\honda.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\honda.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/honda.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'honda.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:59:40 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\about-us.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\about-us.jpg.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/about-us.jpg
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/abou...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/abou...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/abou...')
+#3 [internal function]: PagesController->display('assets', 'img', 'about-us.jpg')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:59:41 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\bmw.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\bmw.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/bmw.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'bmw.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:59:41 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\toyota.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\toyota.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/toyota.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'toyota.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 15:59:42 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\mercedes.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\mercedes.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/mercedes.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'mercedes.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:00:39 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\ford.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\ford.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/ford.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'ford.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:00:40 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\about-us.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\about-us.jpg.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/about-us.jpg
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/abou...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/abou...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/abou...')
+#3 [internal function]: PagesController->display('assets', 'img', 'about-us.jpg')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:00:40 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\honda.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\honda.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/honda.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'honda.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:00:41 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\mercedes.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\mercedes.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/mercedes.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'mercedes.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:00:41 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\volkswagen.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\volkswagen.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/volkswagen.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'volkswagen.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:00:42 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\toyota.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\toyota.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/toyota.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'toyota.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:00:42 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\partners\bmw.png.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\partners\\bmw.png.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/partners/bmw.png
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/part...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/part...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/part...')
+#3 [internal function]: PagesController->display('assets', 'img', 'partners', 'bmw.png')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:01:02 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\about-us.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\about-us.jpg.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/about-us.jpg
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/abou...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/abou...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/abou...')
+#3 [internal function]: PagesController->display('assets', 'img', 'about-us.jpg')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:03:38 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\about-us.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\about-us.jpg.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/about-us.jpg
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/abou...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/abou...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/abou...')
+#3 [internal function]: PagesController->display('assets', 'img', 'about-us.jpg')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:04:22 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\about-us.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\about-us.jpg.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/about-us.jpg
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/abou...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/abou...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/abou...')
+#3 [internal function]: PagesController->display('assets', 'img', 'about-us.jpg')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:04:36 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\about-us.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\about-us.jpg.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/about-us.jpg
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/abou...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/abou...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/abou...')
+#3 [internal function]: PagesController->display('assets', 'img', 'about-us.jpg')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:04:52 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\about-us.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\about-us.jpg.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/about-us.jpg
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/abou...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/abou...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/abou...')
+#3 [internal function]: PagesController->display('assets', 'img', 'about-us.jpg')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:05:02 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\about-us.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\about-us.jpg.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/about-us.jpg
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/abou...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/abou...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/abou...')
+#3 [internal function]: PagesController->display('assets', 'img', 'about-us.jpg')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:05:29 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\about-us.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\about-us.jpg.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/about-us.jpg
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/abou...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/abou...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/abou...')
+#3 [internal function]: PagesController->display('assets', 'img', 'about-us.jpg')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:06:18 Error: [MissingViewException] View file "C:\wamp\www\Cakephp\app\View\Pages\assets\img\about-us.jpg.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\Cakephp\\app\\View\\Pages\\assets\\img\\about-us.jpg.ctp',
+)
+Request URL: /Cakephp/pages/assets/img/about-us.jpg
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\View\View.php(457): View->_getViewFileName('assets/img/abou...')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(952): View->render('assets/img/abou...', NULL)
+#2 C:\wamp\www\Cakephp\app\Controller\PagesController.php(73): Controller->render('assets/img/abou...')
+#3 [internal function]: PagesController->display('assets', 'img', 'about-us.jpg')
+#4 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-14 16:11:58 Error: [MissingControllerException] Controller class OkController could not be found.
+Exception Attributes: array (
+  'class' => 'OkController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/ok
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-14 16:12:26 Error: [MissingControllerException] Controller class OkController could not be found.
+Exception Attributes: array (
+  'class' => 'OkController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/ok
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-14 16:15:23 Error: [MissingControllerException] Controller class OkController could not be found.
+Exception Attributes: array (
+  'class' => 'OkController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/ok
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-14 16:15:34 Error: [MissingControllerException] Controller class OkController could not be found.
+Exception Attributes: array (
+  'class' => 'OkController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/ok
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-14 16:15:50 Error: [MissingControllerException] Controller class OkController could not be found.
+Exception Attributes: array (
+  'class' => 'OkController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/ok
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-14 16:15:53 Error: [MissingControllerException] Controller class OkController could not be found.
+Exception Attributes: array (
+  'class' => 'OkController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/ok
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-14 16:16:04 Error: [MissingControllerException] Controller class OkController could not be found.
+Exception Attributes: array (
+  'class' => 'OkController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/ok/page
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-14 16:16:13 Error: [MissingControllerException] Controller class OkController could not be found.
+Exception Attributes: array (
+  'class' => 'OkController',
+  'plugin' => NULL,
+)
+Request URL: /Cakephp/ok/page
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-14 16:16:34 Error: [MissingActionException] Action VehiclesController::addd() could not be found.
+Exception Attributes: array (
+  'controller' => 'VehiclesController',
+  'action' => 'addd',
+)
+Request URL: /Cakephp/vehicles/addd
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-14 16:26:44 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp\www\Cakephp\app\View\Layouts\default.ctp, line 138]
+2014-08-14 16:26:44 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Cakephp/
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 138)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 138, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 138, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-14 16:26:49 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\wamp\www\Cakephp\app\View\Layouts\default.ctp, line 138]
+2014-08-14 16:26:49 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Cakephp/
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 138)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 138, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 138, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-14 16:27:03 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp\www\Cakephp\app\View\Layouts\default.ctp, line 140]
+2014-08-14 16:27:03 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Cakephp/
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 140)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 140, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 140, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-14 16:27:07 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\wamp\www\Cakephp\app\View\Layouts\default.ctp, line 140]
+2014-08-14 16:27:07 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Cakephp/
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 140)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 140, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 140, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

@@ -909,100 +909,7 @@
             <div id="content-bottom">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="testimonials-block block">
-	<div class="page-header center">
-		<div class="page-header-inner">
-			<div class="line">
-				<hr/>
-			</div>
-
-			<div class="heading">
-				<h2>Our Satisfied Customers</h2>
-			</div><!-- /.heading -->
-
-			<div class="line">
-				<hr/>
-			</div><!-- /.line -->
-		</div><!-- /.page-header-inner -->
-	</div><!-- /.page-header -->
-
-	<div class="row">
-		<div class="col-sm-12 col-md-6">
-			<div class="testimonial white">
-				<div class="inner">
-					<div class="row">
-						<div class="col-sm-3 col-md-4">
-							<div class="picture">
-								<img src="img/testimonials-1.png" alt="#">
-							</div><!-- /.picture -->
-						</div><!-- /.col-md-4 -->
-
-						<div class="col-sm-9 col-md-8">
-							<div class="description quote">
-								<p>
-									<i>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ligula ipsum, ornare ac augue
-										in, suscipit pretium purus. Vestibulum turpis felis, gravida ac justo.
-									</i>
-								</p>
-							</div><!-- /.description -->
-
-							<div class="star-rating">
-								<input name="star0" type="radio" class="star icon-normal-star" checked="checked" disabled="disabled">
-								<input name="star0" type="radio" class="star icon-normal-star" checked="checked" disabled="disabled">
-								<input name="star0" type="radio" class="star icon-normal-star" checked="checked" disabled="disabled">
-								<input name="star0" type="radio" class="star icon-normal-star" checked="checked" disabled="disabled">
-								<input name="star0" type="radio" class="star icon-normal-star" checked="checked" disabled="disabled">
-							</div><!-- /.star-rating -->
-
-							<div class="author">
-								<strong>Fanny Harley</strong>
-							</div><!-- /.author -->
-						</div><!-- /.col-md-8 -->
-					</div><!-- /.row -->
-				</div><!-- /.inner -->
-			</div><!-- /.testimonial -->
-		</div><!-- /.col-md-6 -->
-
-
-		<div class="col-sm-12 col-md-6">
-			<div class="testimonial white">
-				<div class="inner">
-					<div class="row">
-						<div class="col-sm-3 col-md-4">
-							<div class="picture">
-								<img src="img/testimonials-2.png" alt="#">
-							</div><!-- /.picture -->
-						</div><!-- /.col-md-4 -->
-
-						<div class="col-sm-9 col-md-8">
-							<div class="description quote">
-								<p>
-									<i>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ligula ipsum, ornare ac augue
-										in, suscipit pretium purus. Vestibulum turpis felis, gravida ac justo.
-									</i>
-								</p>
-							</div><!-- /.description -->
-
-							<div class="star-rating">
-								<input name="star1" type="radio" class="star icon-normal-star" checked="checked" disabled="disabled">
-								<input name="star1" type="radio" class="star icon-normal-star" checked="checked" disabled="disabled">
-								<input name="star1" type="radio" class="star icon-normal-star" checked="checked" disabled="disabled">
-								<input name="star1" type="radio" class="star icon-normal-star" disabled="disabled">
-								<input name="star1" type="radio" class="star icon-normal-star" disabled="disabled">
-							</div><!-- /.star-rating -->
-
-							<div class="author">
-								<strong>Chavi Ernanéz</strong>
-							</div><!-- /.author -->
-						</div><!-- /.col-md-8 -->
-					</div><!-- /.row -->
-				</div><!-- /.inner -->
-			</div><!-- /.testimonial -->
-		</div><!-- /.col-md-6 -->
-	</div><!-- /.row -->
-</div><!-- /.testimonials-block -->                    </div><!-- /.col-md-12 -->
+                                           </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
 
                 <div class="row">
@@ -1088,160 +995,94 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="partners-block block">
-        <div class="page-header">
-            <div class="page-header-inner">
-
-
-                <div class="heading">
-                    <h2>Nos Partenaires</h2>
-                </div><!-- /.heading -->
-
-                <div class="line">
-                    <hr/>
-                </div><!-- /.line -->
-            </div><!-- /.page-header-inner -->
-        </div><!-- /.page-header -->
-
-	<div class="inner-block white block-shadow">
-		<div class="row">
-			<div class="col-sm-2 col-md-2">
-				<div class="partner">
-					<a href="#">
-						<img src="img/partners/volkswagen.png" alt="#">
-					</a>
-				</div><!-- /.partner -->
-			</div><!-- /.col-md-2 -->
-
-			<div class="col-sm-2 col-md-2">
-				<div class="partner">
-					<a href="#">
-						<img src="img/partners/ford.png" alt="#">
-					</a>
-				</div><!-- /.partner -->
-			</div><!-- /.col-md-2 -->
-
-			<div class="col-sm-2 col-md-2">
-				<div class="partner">
-					<a href="#">
-						<img src="img/partners/honda.png" alt="#">
-					</a>
-				</div><!-- /.partner -->
-			</div><!-- /.col-md-2 -->
-
-			<div class="col-sm-2 col-md-2">
-				<div class="partner">
-					<a href="#">
-						<img src="img/partners/mercedes.png" alt="#">
-					</a>
-				</div><!-- /.partner -->
-			</div><!-- /.col-md-2 -->
-
-			<div class="col-sm-2 col-md-2">
-				<div class="partner">
-					<a href="#">
-						<img src="img/partners/toyota.png" alt="#">
-					</a>
-				</div><!-- /.partner -->
-			</div><!-- /.col-md-2 -->
-
-			<div class="col-sm-2 col-md-2">
-				<div class="partner">
-					<a href="#">
-						<img src="img/partners/bmw.png" alt="#">
-					</a>
-				</div><!-- /.partner -->
-			</div><!-- /.col-md-2 -->
-		</div><!-- /.row -->
-	</div><!-- /.inner-block -->
-</div><!-- /.partners-block -->                
-</div><!-- /.col-md-12 -->
+                      <div class="vehicles index">
+    <h2><?php echo __('Vehicles'); ?></h2>
+    <table cellpadding="0" cellspacing="0">
+    <tr>
+            <th><?php echo $this->Paginator->sort('id'); ?></th>
+            <th><?php echo $this->Paginator->sort('mark_id'); ?></th>
+            <th><?php echo $this->Paginator->sort('modele_id'); ?></th>
+            <th><?php echo $this->Paginator->sort('power'); ?></th>
+            <th><?php echo $this->Paginator->sort('price'); ?></th>
+            <th><?php echo $this->Paginator->sort('mileage'); ?></th>
+            <th><?php echo $this->Paginator->sort('consumption'); ?></th>
+            <th><?php echo $this->Paginator->sort('fuel'); ?></th>
+            <th><?php echo $this->Paginator->sort('year'); ?></th>
+            <th><?php echo $this->Paginator->sort('date_mise_en_circulation'); ?></th>
+            <th><?php echo $this->Paginator->sort('nbr_portes'); ?></th>
+            <th><?php echo $this->Paginator->sort('extcolor'); ?></th>
+            <th><?php echo $this->Paginator->sort('intcolor'); ?></th>
+            <th><?php echo $this->Paginator->sort('image'); ?></th>
+            <th><?php echo $this->Paginator->sort('description'); ?></th>
+            <th><?php echo $this->Paginator->sort('sold'); ?></th>
+            <th><?php echo $this->Paginator->sort('created'); ?></th>
+            <th><?php echo $this->Paginator->sort('modified'); ?></th>
+            <th class="actions"><?php echo __('Actions'); ?></th>
+    </tr>
+    <tr>    <?php foreach ($vehicles as $vehicle): ?>
+    
+        <td><?php echo h($vehicle['Vehicle']['id']); ?>&nbsp;</td>
+        <td>
+            <?php echo $this->Html->link($vehicle['Mark']['name'], array('controller' => 'marks', 'action' => 'view', $vehicle['Mark']['id'])); ?>
+        </td>
+        <td>
+            <?php echo $this->Html->link($vehicle['Modele']['name'], array('controller' => 'modeles', 'action' => 'view', $vehicle['Modele']['id'])); ?>
+        </td>
+        <td><?php echo h($vehicle['Vehicle']['power']); ?>&nbsp;</td>
+        <td><?php echo h($vehicle['Vehicle']['price']); ?>&nbsp;</td>
+        <td><?php echo h($vehicle['Vehicle']['mileage']); ?>&nbsp;</td>
+        <td><?php echo h($vehicle['Vehicle']['consumption']); ?>&nbsp;</td>
+        <td><?php echo h($vehicle['Vehicle']['fuel']); ?>&nbsp;</td>
+        <td><?php echo h($vehicle['Vehicle']['year']); ?>&nbsp;</td>
+        <td><?php echo h($vehicle['Vehicle']['date_mise_en_circulation']); ?>&nbsp;</td>
+        <td><?php echo h($vehicle['Vehicle']['nbr_portes']); ?>&nbsp;</td>
+        <td><?php echo h($vehicle['Vehicle']['extcolor']); ?>&nbsp;</td>
+        <td><?php echo h($vehicle['Vehicle']['intcolor']); ?>&nbsp;</td>
+        <td><?php echo h($vehicle['Vehicle']['image']); ?>&nbsp;</td>
+        <td><?php echo h($vehicle['Vehicle']['description']); ?>&nbsp;</td>
+        <td><?php echo h($vehicle['Vehicle']['sold']); ?>&nbsp;</td>
+        <td><?php echo h($vehicle['Vehicle']['sold_date']); ?>&nbsp;</td>
+        <td><?php echo h($vehicle['Vehicle']['created']); ?>&nbsp;</td>
+        <td><?php echo h($vehicle['Vehicle']['modified']); ?>&nbsp;</td>
+        <td class="actions">
+            <?php echo $this->Html->link(__('View'), array('action' => 'view', $vehicle['Vehicle']['id'])); ?>
+            <?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $vehicle['Vehicle']['id'])); ?>
+            <?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $vehicle['Vehicle']['id']), null, __('Are you sure you want to delete # %s?', $vehicle['Vehicle']['id'])); ?>
+        </td>
+    </tr>
+<?php endforeach; ?>
+    </table>
+    <p>
+    <?php
+    echo $this->Paginator->counter(array(
+    'format' => __('Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}')
+    ));
+    ?>  </p>
+    <div class="paging">
+    <?php
+        echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled'));
+        echo $this->Paginator->numbers(array('separator' => ''));
+        echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
+    ?>
+    </div>
+</div>
+<div class="actions">
+    <h3><?php echo __('Actions'); ?></h3>
+    <ul>
+        <li><?php echo $this->Html->link(__('New Vehicle'), array('action' => 'add')); ?></li>
+        <li><?php echo $this->Html->link(__('List Marks'), array('controller' => 'marks', 'action' => 'index')); ?> </li>
+        <li><?php echo $this->Html->link(__('New Mark'), array('controller' => 'marks', 'action' => 'add')); ?> </li>
+        <li><?php echo $this->Html->link(__('List Modeles'), array('controller' => 'modeles', 'action' => 'index')); ?> </li>
+        <li><?php echo $this->Html->link(__('New Modele'), array('controller' => 'modeles', 'action' => 'add')); ?> </li>
+    </ul>
+</div>            
+                </div><!-- /.col-md-12 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
     </div><!-- /.section -->
 </div> 
    
-<div class="vehicles index">
-	<h2><?php echo __('Vehicles'); ?></h2>
-	<table cellpadding="0" cellspacing="0">
-	<tr>
-			<th><?php echo $this->Paginator->sort('id'); ?></th>
-			<th><?php echo $this->Paginator->sort('mark_id'); ?></th>
-			<th><?php echo $this->Paginator->sort('modele_id'); ?></th>
-			<th><?php echo $this->Paginator->sort('power'); ?></th>
-			<th><?php echo $this->Paginator->sort('price'); ?></th>
-			<th><?php echo $this->Paginator->sort('mileage'); ?></th>
-			<th><?php echo $this->Paginator->sort('consumption'); ?></th>
-			<th><?php echo $this->Paginator->sort('fuel'); ?></th>
-			<th><?php echo $this->Paginator->sort('year'); ?></th>
-			<th><?php echo $this->Paginator->sort('date_mise_en_circulation'); ?></th>
-			<th><?php echo $this->Paginator->sort('nbr_portes'); ?></th>
-			<th><?php echo $this->Paginator->sort('extcolor'); ?></th>
-			<th><?php echo $this->Paginator->sort('intcolor'); ?></th>
-			<th><?php echo $this->Paginator->sort('image'); ?></th>
-			<th><?php echo $this->Paginator->sort('description'); ?></th>
-			<th><?php echo $this->Paginator->sort('sold'); ?></th>
-			<th><?php echo $this->Paginator->sort('created'); ?></th>
-			<th><?php echo $this->Paginator->sort('modified'); ?></th>
-			<th class="actions"><?php echo __('Actions'); ?></th>
-	</tr>
-	<tr>	<?php foreach ($vehicles as $vehicle): ?>
-	
-		<td><?php echo h($vehicle['Vehicle']['id']); ?>&nbsp;</td>
-		<td>
-			<?php echo $this->Html->link($vehicle['Mark']['name'], array('controller' => 'marks', 'action' => 'view', $vehicle['Mark']['id'])); ?>
-		</td>
-		<td>
-			<?php echo $this->Html->link($vehicle['Modele']['name'], array('controller' => 'modeles', 'action' => 'view', $vehicle['Modele']['id'])); ?>
-		</td>
-		<td><?php echo h($vehicle['Vehicle']['power']); ?>&nbsp;</td>
-		<td><?php echo h($vehicle['Vehicle']['price']); ?>&nbsp;</td>
-		<td><?php echo h($vehicle['Vehicle']['mileage']); ?>&nbsp;</td>
-		<td><?php echo h($vehicle['Vehicle']['consumption']); ?>&nbsp;</td>
-		<td><?php echo h($vehicle['Vehicle']['fuel']); ?>&nbsp;</td>
-		<td><?php echo h($vehicle['Vehicle']['year']); ?>&nbsp;</td>
-		<td><?php echo h($vehicle['Vehicle']['date_mise_en_circulation']); ?>&nbsp;</td>
-		<td><?php echo h($vehicle['Vehicle']['nbr_portes']); ?>&nbsp;</td>
-		<td><?php echo h($vehicle['Vehicle']['extcolor']); ?>&nbsp;</td>
-		<td><?php echo h($vehicle['Vehicle']['intcolor']); ?>&nbsp;</td>
-		<td><?php echo h($vehicle['Vehicle']['image']); ?>&nbsp;</td>
-		<td><?php echo h($vehicle['Vehicle']['description']); ?>&nbsp;</td>
-		<td><?php echo h($vehicle['Vehicle']['sold']); ?>&nbsp;</td>
-		<td><?php echo h($vehicle['Vehicle']['sold_date']); ?>&nbsp;</td>
-		<td><?php echo h($vehicle['Vehicle']['created']); ?>&nbsp;</td>
-		<td><?php echo h($vehicle['Vehicle']['modified']); ?>&nbsp;</td>
-		<td class="actions">
-			<?php echo $this->Html->link(__('View'), array('action' => 'view', $vehicle['Vehicle']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $vehicle['Vehicle']['id'])); ?>
-			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $vehicle['Vehicle']['id']), null, __('Are you sure you want to delete # %s?', $vehicle['Vehicle']['id'])); ?>
-		</td>
-	</tr>
-<?php endforeach; ?>
-	</table>
-	<p>
-	<?php
-	echo $this->Paginator->counter(array(
-	'format' => __('Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}')
-	));
-	?>	</p>
-	<div class="paging">
-	<?php
-		echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled'));
-		echo $this->Paginator->numbers(array('separator' => ''));
-		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
-	?>
-	</div>
-</div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('New Vehicle'), array('action' => 'add')); ?></li>
-		<li><?php echo $this->Html->link(__('List Marks'), array('controller' => 'marks', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Mark'), array('controller' => 'marks', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Modeles'), array('controller' => 'modeles', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Modele'), array('controller' => 'modeles', 'action' => 'add')); ?> </li>
-	</ul>
-</div>
+
 <script>
                                                 	$('select.mark').change(function(){
                                                 		//alert('changed');

@@ -35,4 +35,13 @@ public $components = array(
 		'DebugKit.Toolbar',
 		'Session');
 
+function _setErrorLayout() {
+if ($this->name == 'CakeError') {
+$this->layout = 'error404';
+}
+}
+function beforeRender () {
+$this->_setErrorLayout();
+}
+
 }

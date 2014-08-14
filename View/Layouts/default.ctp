@@ -105,12 +105,12 @@
 				<div class="col-md-12 clearfix">
 					<div class="brand">
 						<div class="logo">
-							<a href="<?php $this->Html->link(array('controller' => 'vehicles', 'action' => 'index')); ?>">
+							<a href=<?php $this->Html->link(array('controller' => 'vehicles', 'action' => 'index')); ?>>
 								<?php echo $this->Html->image('logo.png',array('alt'=>'Carat HTML Template')); ?>
 							</a>
 						</div><!-- /.logo -->
 
-						<div class="slogan">Car Rental, Dealership  </div><!-- /.slogan -->
+						<div class="slogan">Vente de voitures  </div><!-- /.slogan -->
 					</div><!-- /.brand -->
 					
 					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
@@ -133,30 +133,19 @@
 
 							<div class="regularmenu">
 								<ul class="regularmenu-inner">
-									<li><a href="#"><i class="icon icon-normal-car"></i> Car Detail</a></li>
-                                                                        <li><a href="filter.html"><i class="icon icon-normal-magnifier"></i> Search results</a></li>
-                                                                        <li><?php echo $this->Html->link('Nous sommes qui', array('controller' => 'pages', 'action' => 'about')); ?></li>
-									<li><a href="faq.html"><i class="icon icon-normal-collage-hat"></i> FAQ</a></li>
-									<li><a href="pricing.html"><i class="icon icon-normal-coins"></i> Pricing</a></li>
-									<li><a href="blog.html"><i class="icon icon-normal-question-mark"></i> Blog</a></li>
-									<li><a href="article.html"><i class="icon icon-normal-file-text"></i>Article Detail</a></li>
-									<li><a href="404.html"><i class="icon icon-normal-cog-wheel"></i>Page Not Found</a></li>
+                                                                        <li>
+                                                                        <?php echo $this->Html->link(
+                                                                         $this->Html->tag('i','Trouvez votre voiture de réve' , array('class'=>'icon icon-normal-magnifier'))
+                                                                        , array('controller' => 'vehicles', 'action' => 'search')
+                                                                        ,array('class'=>'','escape'=>false)); ?>
+                                                                        </li>
+                                                                        <li>
+                                                                        <?php echo $this->Html->link('Nous sommes qui', array('controller' => 'pages', 'action' => 'about')); ?>
+                                                                        </li>
 								</ul><!-- /.regularmenu-inner -->
 							</div><!-- /.regularmenu -->
 						</li>
-
-						<li class="menuparent has-regularmenu">
-							<a href="#">Reservation</a>
-
-							<div class="regularmenu">
-								<ul class="regularmenu-inner">
-									<li><a href="rental-1.html"><strong>1.</strong> Request Reservation</a></li>
-									<li><a href="rental-2.html"><strong>2.</strong> Select Your Car</a></li>
-									<li><a href="rental-3.html"><strong>3.</strong> Extra Features</a></li>
-									<li><a href="rental-4.html"><strong>4.</strong> Review &amp; Checkout</a></li>
-								</ul><!-- /.regularmenu-inner -->
-							</div><!-- /.regularmenu -->
-						</li>
+						
 
 						<li><a href="magazine.html">Magazine</a></li>
 						<li class="menuparent has-megamenu">
