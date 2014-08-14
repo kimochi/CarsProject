@@ -2436,3 +2436,43 @@ Stack Trace:
 #3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
 #4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-08-14 14:15:46 Error: Fatal Error (4): syntax error, unexpected ':', expecting ',' or ';' in [C:\wamp\www\Cakephp\app\Controller\VehiclesController.php, line 656]
+2014-08-14 14:15:46 Error: [FatalErrorException] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /Cakephp/vehicles/add
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 656)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 656, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 656, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-14 14:15:52 Error: Fatal Error (4): syntax error, unexpected ':', expecting ',' or ';' in [C:\wamp\www\Cakephp\app\Controller\VehiclesController.php, line 656]
+2014-08-14 14:15:52 Error: [FatalErrorException] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /Cakephp/vehicles/add
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 656)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 656, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 656, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-14 14:16:19 Error: Fatal Error (4): syntax error, unexpected ':', expecting ',' or ';' in [C:\wamp\www\Cakephp\app\Controller\VehiclesController.php, line 662]
+2014-08-14 14:16:19 Error: [FatalErrorException] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /Cakephp/vehicles/add
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 662)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 662, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 662, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-14 14:16:23 Error: Fatal Error (4): syntax error, unexpected ':', expecting ',' or ';' in [C:\wamp\www\Cakephp\app\Controller\VehiclesController.php, line 662]
+2014-08-14 14:16:23 Error: [FatalErrorException] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /Cakephp/vehicles/add
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 662)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 662, Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Cak...', 662, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

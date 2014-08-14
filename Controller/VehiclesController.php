@@ -645,27 +645,48 @@ public $helpers = array('Image');
 					$idmg = current($idimg)['id'];
 					$this->Vehicle->Imagesvehicle->query('DELETE FROM IMAGESVEHICLES WHERE vehicle_id = '.$id);
 					foreach ($images as $img) {
+
+						debug($img);
 						$extension = strtolower(pathinfo($img['Imagesvehicle']['image'],PATHINFO_EXTENSION));//l'extension jdida au cas ou bgha yzid l'image w hya makantch
 							$oldfile = IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '.' . $extension;//nchdo l'image (objét)
+							echo "if (file_exists($oldfile))";
 							if (file_exists($oldfile)) {
+								echo "unlink($oldfile);";
 								unlink($oldfile);
 							}
+							echo "<br>".'car_'.$id .'_'. $idmg. '_80x60.' . $extension  .":";
 							if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_80x60.' . $extension)) {
+								echo "deleting it ";
 								     unlink(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_80x60.' . $extension);
+								     echo "deleted";
 							}
+							echo "<br>".'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg.'_253x190.' . $extension  .":";
 							if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg.'_253x190.' . $extension)) {
+								echo "deleting it ";
 								unlink(IMAGES.'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_253x190.' . $extension);
+								     echo "deleted";
 							}
+							echo '<br>'. 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_255x191.' . $extension .':' ;
 							if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_255x191.' . $extension)) {
+								echo "deleting it ";
 								unlink(IMAGES.'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_255x191.' . $extension);
+								     echo "deleted";
 							}
+							echo "<br>".'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_555x416.' . $extension.":";
 							if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_555x416.' . $extension)) {
+								echo "deleting it ";
 								     unlink(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_555x416.' . $extension);
+								     echo "deleted";
 							}
+							echo "<br>".'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_652x409.' . $extension.":";
 							if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_652x409.' . $extension)) {
+								echo "deleting it ";
 								unlink(IMAGES.'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_652x409.' . $extension);
+								     echo "deleted";
 							}
+							$idmg = $idmg+1;
 			}
+							exit();
 			$this->Session->setFlash(__('The vehicle has been deleted.'));
 		} else {
 			$this->Session->setFlash(__('The vehicle could not be deleted. Please, try again.'));
