@@ -123,6 +123,14 @@ class MarksController extends AppController {
 		}
 		$this->request->onlyAllow('post', 'delete');
 		if ($this->Mark->delete()) {
+			echo IMAGES  . 'uploads\marks' . DS. 'Mrk'.$id .'png';
+			if (file_exists(IMAGES  . 'uploads\marks' . DS. 'Mrk'.$id .'.png')) {
+				unlink(IMAGES  . 'uploads\marks' . DS. 'Mrk'.$id .'.png');
+			}
+			if (file_exists(IMAGES  . 'uploads\marks' . DS. 'Mrk'.$id.'_50X50' .'.png')) {
+				unlink(IMAGES  . 'uploads\marks' . DS. 'Mrk'.$id.'_50X50' .'.png');
+			}
+			$this->Mark->Modele->query('DELETE FROM MODELES WHERE mark_id = '.$id);
 			$this->Session->setFlash(__('The mark has been deleted.'));
 		} else {
 			$this->Session->setFlash(__('The mark could not be deleted. Please, try again.'));
