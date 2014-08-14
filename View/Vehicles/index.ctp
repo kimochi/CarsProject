@@ -737,23 +737,7 @@
 
                 <div class="col-md-3 col-sm-12">
                     <div class="sidebar">
-                        <div id="newsletter" class='block default'>
-  <div class="block-inner">
-    <div class="block-title">
-      <h3>Subscribe to newsletter</h3>
-    </div>
-
-    <form>
-      <div class="form-group">
-        <input placeholder="Your e-mail" type="text" name="maker" class="form-control">
-      </div>
-
-      <div class="form-group">
-        <button class="send btn btn-primary btn-primary-color">Subscribe</button>
-      </div>
-    </form>
-  </div>
-</div>                        <div class="latest-reviews block block-shadow white">
+                                  <div class="latest-reviews block block-shadow white">
 	<div class="block-inner">
 		<div class="block-title">
 			<h3>Latest Reviews</h3>
@@ -1110,7 +1094,7 @@
 
 
                 <div class="heading">
-                    <h2>Our Partners</h2>
+                    <h2>Nos Partenaires</h2>
                 </div><!-- /.heading -->
 
                 <div class="line">

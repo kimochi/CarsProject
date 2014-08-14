@@ -452,40 +452,30 @@
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="block">
 					<div class="title">
-						<h2>Subscribe to Newsletter</h2>
+						<h2>Horraire d'ouverture </h2>
 					</div><!-- /.title -->
-
-					<form method="post">
-						<div class="input-group">						  
-						  <input type="email" class="form-control" placeholder="Your e-mail address" required="required">
-
-					      <span class="input-group-btn">
-					        <button class="btn btn-default" type="button">Submit</button><!-- /.btn -->
-					      </span><!-- /.input-group-btn -->
-						</div><!-- /.input-group -->
-					</form>
 
 					<br>
 
 					<div class="opening-hours">
 						<div class="day clearfix">
-							<span class="name">Monday</span><span class="hours">07:00 AM - 07:00 PM</span>
+							<span class="name">Lundi</span><span class="hours">07:00 AM - 07:00 PM</span>
 						</div><!-- /.day -->
 
 						<div class="day clearfix">
-							<span class="name">Tuesday</span><span class="hours">07:00 AM - 07:00 PM</span>
+							<span class="name">Mardi</span><span class="hours">07:00 AM - 07:00 PM</span>
 						</div><!-- /.day -->
 
 						<div class="day clearfix">
-							<span class="name">Wednesday</span><span class="hours"><i class="icon icon-normal-car"></i> Demonstration drives only</span>
+							<span class="name">Mercredi</span><span class="hours"><i class="icon icon-normal-car"></i> Demonstration drives only</span>
 						</div><!-- /.day -->
 
 						<div class="day clearfix">
-							<span class="name">Thursday</span><span class="hours">07:00 AM - 07:00 PM</span>
+							<span class="name">Jeudi</span><span class="hours">07:00 AM - 07:00 PM</span>
 						</div><!-- /.day -->
 
 						<div class="day clearfix">
-							<span class="name">Friday</span><span class="hours">07:00 AM - 07:00 PM</span>
+							<span class="name">Venredi</span><span class="hours">07:00 AM - 07:00 PM</span>
 						</div><!-- /.day -->
 
 						<div class="day clearfix">
@@ -903,7 +893,7 @@
 		</div><!-- /.container -->
 	</div><!-- /.footer-bottom -->
 </div><!-- /.fin footer-->
-	<?php echo $this->element('sql_dump'); ?>
+	<?php //echo $this->element('sql_dump'); ?>
 </body>
 
 
