@@ -118,8 +118,6 @@
 							foreach ($images as $img) {
 								//on prend les images de la véhicule en cours
 									if ($img['Imagesvehicle']['vehicle_id'] == $vehicles[0]['Vehicle']['id']) {
-										//echo $this->Html->link($title, array('controller' => '', 'action' => ''));
-										// echo $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],652,409,array('width'=>'640','height'=>'480','class'=>"slide",'quality'=>100));
 										 $im = $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],652,409,array('width'=>'640','height'=>'480','class'=>"slide",'quality'=>100));
 
 										 break;
@@ -368,12 +366,13 @@
                         <div class="wrapper">
                             <div class="picture">
                                 <a href="detail.html">
-                                    <img src="img/filter/bike.png" class="cover-me" alt="#">
+                                    
+                                    <?php echo $this->Html->image('filter/citadine_200x141.png', array('class'=>'cover-me')); ?>
                                 </a>
                             </div><!-- /.picture -->
 
                             <div class="meta">
-                                <div class="title"><a href="filter.html">Motorcycles</a></div><!-- /.title -->
+                                <div class="title"><a href="filter.html">Citadines &amp; Berlines</a></div><!-- /.title -->
                                 <div class="offers">55 offers</div><!-- /.offers -->
                             </div><!-- /.meta -->
 
@@ -398,7 +397,7 @@
                             
                             <div class="meta">
                                 <div class="title">
-                                    <a href="detail.html">Pickup &amp; SUVs</a>
+                                    <a href="detail.html">Pickup &amp; SUVs &amp; 4X4</a>
                                 </div><!-- /.title -->
 
                                 <div class="offers">24 offers</div><!-- /.offers -->
@@ -425,7 +424,7 @@
                             </div>
                             <div class="meta">
                                 <div class="title">
-                                    <a href="detail.html">Sport cars</a>
+                                    <a href="detail.html">Voitures Sportifs</a>
                                 </div><!-- /.title -->
                                 <div class="offers">89 offers</div><!-- /.offers-->
                             </div><!-- /.meta -->

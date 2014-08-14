@@ -54,7 +54,16 @@ class Vehicle extends AppModel {
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
-
+		'type_id' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
 		'nbr_portes' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
@@ -280,6 +289,13 @@ public function fileExtension($check,$extensions,$allowEmpty = true)
 		'Modele' => array(
 			'className' => 'Modele',
 			'foreignKey' => 'modele_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+		'Type' => array(
+			'className' => 'Type',
+			'foreignKey' => 'type_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
