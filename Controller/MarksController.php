@@ -87,7 +87,7 @@ class MarksController extends AppController {
 					
 					if (!empty($file['tmp_name'])) {
 						$oldextension = strtolower(pathinfo($this->Mark->field['image'], PATHINFO_EXTENSION)); //extension l9dima au cas ou bgha ymodifi l'image ila déja kayna 
-						$oldfile = IMAGES  . 'uploads\marks' . DS. $this->Mark->field['image'];//nchdo l'image (objét)
+						$oldfile = IMAGES  . 'uploads\marks' . DS.'Mrk' . $this->Mark->id . '.' . $extension ;//nchdo l'image (objét)
 						if (file_exists($oldfile)) {
 							//supprimer si une existe déja
 							unlink($oldfile);

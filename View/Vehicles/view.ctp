@@ -109,16 +109,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="block block-shadow white block-margin">
-                                                <div class="block-inner">
-                                                    <div id="detail-map">
-                                                    </div>
-                                                </div>
-                                            </div><!-- /.block -->
-                                        </div><!-- /.col-md-12 -->
-                                    </div><!-- /.row -->
+                                    
                                 </div>
 
                                 <div class="col-md-6">
@@ -141,30 +132,7 @@
                                                                 </div>
 
                                                               <?php echo $this->Html->link('Contactez Nous', array('controller' => 'pages', 'action' => 'contact'),array('class'=>'btn btn-primary')); ?>
-                                                                <div class="actions">
-                                                                    <ul>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="icon icon-normal-piggy-bank"></i>Leasing options
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="icon icon-normal-school-ring"></i>Watch this product
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="icon icon-normal-profile-rays"></i>Send to friend
-                                                                            </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="#">
-                                                                                <i class="icon icon-normal-printer"></i>Print this page
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div><!-- /.actions-->
+                                                              
                                                             </div><!-- /.col-md-5 -->
 
                                                             <div class="col-sm-7 col-md-7">
@@ -262,13 +230,16 @@
                         	foreach ($otherimages as $img) {
 
 								//on prend les images de la véhicule en cours
-
+                        		//$extension = strtolower(pathinfo($img['name'],PATHINFO_EXTENSION));//l'extension jdida au 
 									if ($img['Imagesvehicle']['vehicle_id'] == $car['Vehicle']['id']) {
 										if($i<=3){
-										 
-										 echo '<a href="detail.html" class="slide">' . $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],255,191,array('quality'=>100));
+										 //$oldfile = IMAGES  . 'uploads\marks' . DS.'Mrk' . $img['Imagesvehicle']['id'] . '.' . $extension ;//
+										
+										 echo '<a  class="slide">' . $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],255,191,array('quality'=>100));
 										 echo "</a>";
-
+										 /*if (file_exists($oldfile)) {
+										 	unlink($oldfile);
+										 }*/
 										}
 										$i = $i +1;
 									}

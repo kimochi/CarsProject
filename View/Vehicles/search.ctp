@@ -13,7 +13,7 @@
                 <div class="block-inner gray">
                     <div class="pull-left">
                         <p>
-                        <?php echo count($vehicl) . " Résultats trouvées"; ?>
+                        <?php echo count($vehicl) . " Résultat(s) trouvées"; ?>
                         </p>
                     </div>
 
@@ -55,7 +55,9 @@
 								//on prend les images de la véhicule en cours
 									if ($img['Imagesvehicle']['vehicle_id'] == $vehicle['Vehicle']['id']) {
 										//echo $this->Html->link($title, array('controller' => '', 'action' => ''));
-										 echo $this->Html->image('uploads/vehicules/'.$img['Imagesvehicle']['image'],array('class'=>"slide"));
+										// echo $this->Html->image('uploads/vehicules/'.$img['Imagesvehicle']['image'],array('class'=>"slide"));
+
+										 echo $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],253,190,array('width'=>'640','height'=>'480','class'=>"slide",'quality'=>100));
 									}
 								}
 						?>

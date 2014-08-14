@@ -133,7 +133,7 @@
 
 							<div class="regularmenu">
 								<ul class="regularmenu-inner">
-									<li><a href="detail.html"><i class="icon icon-normal-car"></i> Car Detail</a></li>
+									<li><a href="#"><i class="icon icon-normal-car"></i> Car Detail</a></li>
                                                                         <li><a href="filter.html"><i class="icon icon-normal-magnifier"></i> Search results</a></li>
                                                                         <li><?php echo $this->Html->link('Nous sommes qui', array('controller' => 'pages', 'action' => 'about')); ?></li>
 									<li><a href="faq.html"><i class="icon icon-normal-collage-hat"></i> FAQ</a></li>
@@ -174,7 +174,7 @@
 												<div class="teaser-item-wrapper">
 													<div class="teaser-item">
 													    <div class="title">
-													        <a href="detail.html">Toyota Landcruiser</a>
+													        <a href="#">Toyota Landcruiser</a>
 													    </div><!-- /.title -->
 
 								    					<div class="subtitle">Windsor Locks, CT </div><!-- /.subtitle -->
@@ -182,7 +182,7 @@
 													    <div class="row">
 													        <div class="picture-wrapper col-md-4 col-sm-4 col-xs-4">
 													            <div class="picture">
-													                <a href="detail.html">
+													                <a href="#">
 													                	<span class="hover">
 													                		<span class="hover-inner">
 													                			<i class="icon icon-normal-link"></i>
@@ -207,7 +207,7 @@
 												<div class="teaser-item-wrapper">												
 													<div class="teaser-item">
 													    <div class="title">
-													        <a href="detail.html">Toyota Landcruiser</a>
+													        <a href="#">Toyota Landcruiser</a>
 													    </div><!-- /.title -->
 
 								    					<div class="subtitle">Windsor Locks, CT </div><!-- /.subtitle -->
@@ -215,7 +215,7 @@
 													    <div class="row">
 													        <div class="picture-wrapper col-md-4 col-sm-4 col-xs-4">
 													            <div class="picture">
-													                <a href="detail.html">
+													                <a href="#">
 													                	<span class="hover">
 													                		<span class="hover-inner">
 													                			<i class="icon icon-normal-link"></i>
@@ -246,7 +246,7 @@
 													<div class="item-wrapper">
 														<div class="item">
 															<div class="title">
-																<a href="detail.html">Toyota Landcruiser</a>
+																<a href="#">Toyota Landcruiser</a>
 															</div><!-- /.title -->
 
 															<div class="date">10/12/2013</div><!-- /.date -->
@@ -262,7 +262,7 @@
 													<div class="item-wrapper">
 														<div class="item">
 															<div class="title">
-																<a href="detail.html">Toyota RAV</a>
+																<a href="#">Toyota RAV</a>
 															</div><!-- /.title -->
 
 															<div class="date">12/12/2013</div><!-- /.date -->
@@ -278,7 +278,7 @@
 													<div class="item-wrapper">
 														<div class="item">
 															<div class="title">
-																<a href="detail.html">Toyota 4Runner</a>
+																<a href="#">Toyota 4Runner</a>
 															</div><!-- /.title -->
 
 															<div class="date">20/12/2013</div><!-- /.date -->
@@ -342,11 +342,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<ol class="breadcrumb pull-left">
-		  			<li><a href="#">Home</a></li>
-		  			<li><a href="#">Featured Cars</a></li>
-		  			<li class="active">Buy</li>
-				</ol>
+				
 
 				<div class="contact pull-right">
 					<div class="contact-item phone">
@@ -391,7 +387,7 @@
 						<div class="teaser-item-wrapper">
 							<div class="teaser-item">
 							    <div class="title">
-							        <a href="detail.html">Toyota Landcruiser</a>
+							        <a href="#">Toyota Landcruiser</a>
 							    </div><!-- /.title -->
 
 		    					<div class="subtitle">Windsor Locks, CT </div><!-- /.subtitle -->
@@ -399,7 +395,7 @@
 							    <div class="row">
 							        <div class="picture-wrapper col-lg-4 col-md-4 col-sm-4 col-xs-4">
 							            <div class="picture">
-							                <a href="detail.html">
+							                <a href="#">
 							                	<span class="hover">
 							                		<span class="hover-inner">
 							                			<i class="icon icon-normal-link"></i>
@@ -422,7 +418,7 @@
 						<div class="teaser-item-wrapper">
 							<div class="teaser-item">
 							    <div class="title">
-							        <a href="detail.html">Toyota Landcruiser</a>
+							        <a href="#">Toyota Landcruiser</a>
 							    </div><!-- /.title -->
 
 		    					<div class="subtitle">Windsor Locks, CT </div><!-- /.subtitle -->
@@ -430,7 +426,7 @@
 							    <div class="row">
 							        <div class="picture-wrapper col-lg-4 col-md-4 col-sm-4 col-xs-4">
 							            <div class="picture">
-							                <a href="detail.html">
+							                <a href="#">
 							                	<span class="hover">
 							                		<span class="hover-inner">
 							                			<i class="icon icon-normal-link"></i>
@@ -520,7 +516,7 @@
 							<div class="item clearfix active">
 								<div class="row">
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -533,7 +529,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -545,7 +541,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -559,7 +555,7 @@
 
 								<div class="row">
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -571,7 +567,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -584,7 +580,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -598,7 +594,7 @@
 
 								<div class="row">
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -611,7 +607,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -623,7 +619,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -639,7 +635,7 @@
 							<div class="item clearfix">
 								<div class="row">
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -650,7 +646,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -663,7 +659,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -677,7 +673,7 @@
 
 								<div class="row">
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -689,7 +685,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -701,7 +697,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -716,7 +712,7 @@
 
 								<div class="row">
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -729,7 +725,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -741,7 +737,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -757,7 +753,7 @@
 							<div class="item clearfix">
 								<div class="row">
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -770,7 +766,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -782,7 +778,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -796,7 +792,7 @@
 
 								<div class="row">
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -808,7 +804,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -821,7 +817,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -835,7 +831,7 @@
 
 								<div class="row">
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -847,7 +843,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>
@@ -859,7 +855,7 @@
 									</div><!-- /.col-md-4 -->
 
 									<div class="image col-xs-4 col-md-4">
-										<a href="detail.html">
+										<a href="#">
 						                	<span class="hover">
 						                		<span class="hover-inner">
 						                			<i class="icon icon-normal-link"></i>

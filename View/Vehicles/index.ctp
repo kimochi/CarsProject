@@ -276,7 +276,7 @@
 								//on prend les images de la véhicule en cours
 									if ($img['Imagesvehicle']['vehicle_id'] == $vehicle['Vehicle']['id']) {
 										//echo $this->Html->link($title, array('controller' => '', 'action' => ''));
-										echo $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],255,191,array('width'=>'640','height'=>'480','class'=>"slide",'quality'=>100));
+										echo $this->Image->resize('uploads/vehicules/'.$img['Imagesvehicle']['image'],255,191,array('class'=>"slide",'quality'=>100));
 										 
 									}
 								}

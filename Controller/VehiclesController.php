@@ -31,6 +31,113 @@ class VehiclesController extends AppController {
 		//$images = $this->Vehicle->Imagesvehicle->find('list');//send images
 		$this->set(compact('marks','vehicles'));
 		$this->set('images',($this->Vehicle->Imagesvehicle->find('all')));
+		if ($this->request->is('post')) {
+			$d = ($this->request->data);
+			//debug($d);
+			//exit();
+			$mrk = $d['Vehicle']['mark_id'];
+			$mdl = $d['Vehicle']['modele_id'];
+			$yr = $d['Vehicle']['year']['year'];
+			if ($mrk == null) {
+				if ($mdl == null) {
+					if ($yr == null) {
+						$this->Paginator->settings= array('limit' => 10);
+					}
+					else{
+							$this->Paginator->settings= array(
+							'conditions' => array(
+										'AND' => array(
+											'Vehicle.year ' => $yr
+											)
+											),
+							'limit' => 10
+							);
+					}
+				}
+				else{
+					//ya3ni la marque n'est pas null
+					if ($yr == null) {
+						$this->Paginator->settings= array(
+							'conditions' => array(
+											'AND'=> array(
+													'Vehicle.modele_id ' => $mdl
+													)
+												),
+							'limit' => 10
+							);
+					}
+					else{
+							$this->Paginator->settings= array(
+							'conditions' => array(
+										'AND' => array(
+											'Vehicle.year ' => $yr,
+											'Vehicle.modele_id ' => $mdl
+											)
+											),
+							'limit' => 10
+							);
+					}
+				}
+			}
+			else{
+				//ya3ni la marque n'est pas null
+				if ($mdl == null) {
+					//ila kkan l modéle null
+					if ($yr == null) {
+						$this->Paginator->settings= array(
+							'conditions' => array(
+											'AND'=> array(
+													'Vehicle.mark_id ' => $mrk
+													)
+												),
+							'limit' => 10
+							);
+					}
+					else{
+						$this->Paginator->settings= array(
+							'conditions' => array(
+											'AND'=> array(
+													'Vehicle.year ' => $yr
+													)
+												),
+							'limit' => 10
+							);
+					}
+				}
+				else{
+					//ila makanch l modéle null
+					if ($yr == null) {
+						
+						$this->Paginator->settings= array(
+							'conditions' => array(
+											'AND'=> array(
+													'Vehicle.modele_id ' => $mdl
+													)
+												),
+							'limit' => 10
+							);
+					}
+					else{
+							$this->Paginator->settings= array(
+							'conditions' => array(
+										'AND' => array(
+											'Vehicle.year ' => $yr,
+											'Vehicle.modele_id ' => $mdl
+											)
+											),
+							'limit' => 10
+							);
+						
+					}
+				}
+			}
+
+
+
+			$vehicl = $this->Paginator->paginate('Vehicle');
+			$this->set(compact('vehicl'));
+			$this->render('search');
+		}
 
 
 }
@@ -368,6 +475,9 @@ public function showModele(){
 		}
 		
 		$this->set('images',($this->Vehicle->Imagesvehicle->find('all',array('conditions'=>array('Imagesvehicle.vehicle_id'=>$id),'fields'=>'image'))));
+		$this->set('otherimages',($this->Vehicle->Imagesvehicle->find('all')));
+		/*debug($this->Vehicle->Imagesvehicle->find('all'));
+		exit();*/
 		/*
 		debug($this->Vehicle->Imagesvehicle->find('all',array('conditions'=>array('Imagesvehicle.vehicle_id'=>$id),'fields'=>'image')));
 		exit();*/
@@ -464,15 +574,32 @@ public $helpers = array('Image');
 					$idmg = current($idimg)['id'];
 				foreach ($images as $img) {
 					//$file=$img;
-					debug($img);
+					//debug($img);
 					if (isset($img)) {
 						$extension = strtolower(pathinfo($img['name'],PATHINFO_EXTENSION));//l'extension jdida au cas ou bgha yzid l'image w hya makantch
 						
 						if (!empty($img['tmp_name'])) {
 							$oldextension = strtolower(pathinfo($this->Vehicle->Imagesvehicle->field['image'], PATHINFO_EXTENSION)); //extension l9dima au cas ou bgha ymodifi l'image ila déja kayna 
 							$oldfile = IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '.' . $extension;//nchdo l'image (objét)
-
+							if (file_exists($oldfile)) {
+								
 								unlink($oldfile);
+							}
+								if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_80x60.' . $extension)) {
+									     unlink(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_80x60.' . $extension);
+								}
+								if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg.'_253x190.' . $extension)) {
+									unlink(IMAGES.'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_253x190.' . $extension);
+								}
+								if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_255x191.' . $extension)) {
+									unlink(IMAGES.'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_255x191.' . $extension);
+								}
+								if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_555x416.' . $extension)) {
+									     unlink(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_555x416.' . $extension);
+								}
+								if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_652x409.' . $extension)) {
+									unlink(IMAGES.'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_652x409.' . $extension);
+								}
 							
 							//et aprés enregistrer l'image
 						move_uploaded_file($img['tmp_name'], IMAGES .'uploads\vehicules'. DS .'car_'.$id .'_'.$idmg. '.' . $extension );
@@ -484,7 +611,7 @@ public $helpers = array('Image');
 					}
 					$idmg  =  1 + $idmg;
 				}
-				exit();
+				//exit();
 				$this->Session->setFlash(__('The vehicle has been saved.'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
@@ -513,6 +640,40 @@ public $helpers = array('Image');
 		}
 		$this->request->onlyAllow('post', 'delete');
 		if ($this->Vehicle->delete()) {
+			$idimg = $this->Vehicle->Imagesvehicle->find('first',array('conditions'=>array('Imagesvehicle.vehicle_id'=>$id),'fields'=> 'id'));
+				//s'il en existe
+					$idmg = current($idimg)['id'];
+				foreach ($images as $img) {
+					//$file=$img;
+					//debug($img);
+					if (isset($img)) {
+						$extension = strtolower(pathinfo($img['name'],PATHINFO_EXTENSION));//l'extension jdida au cas ou bgha yzid l'image w hya makantch
+						
+						if (!empty($img['tmp_name'])) {
+							$oldextension = strtolower(pathinfo($this->Vehicle->Imagesvehicle->field['image'], PATHINFO_EXTENSION)); //extension l9dima au cas ou bgha ymodifi l'image ila déja kayna 
+							$oldfile = IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '.' . $extension;//nchdo l'image (objét)
+							if (file_exists($oldfile)) {
+								
+								unlink($oldfile);
+							}
+								if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_80x60.' . $extension)) {
+									     unlink(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_80x60.' . $extension);
+								}
+								if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg.'_253x190.' . $extension)) {
+									unlink(IMAGES.'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_253x190.' . $extension);
+								}
+								if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_255x191.' . $extension)) {
+									unlink(IMAGES.'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_255x191.' . $extension);
+								}
+								if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_555x416.' . $extension)) {
+									     unlink(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_555x416.' . $extension);
+								}
+								if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_652x409.' . $extension)) {
+									unlink(IMAGES.'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_652x409.' . $extension);
+								}
+					}
+				}
+			}
 			$this->Session->setFlash(__('The vehicle has been deleted.'));
 		} else {
 			$this->Session->setFlash(__('The vehicle could not be deleted. Please, try again.'));
