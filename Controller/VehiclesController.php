@@ -640,39 +640,31 @@ public $helpers = array('Image');
 		}
 		$this->request->onlyAllow('post', 'delete');
 		if ($this->Vehicle->delete()) {
-			$idimg = $this->Vehicle->Imagesvehicle->find('first',array('conditions'=>array('Imagesvehicle.vehicle_id'=>$id),'fields'=> 'id'));
-				//s'il en existe
+					$images = $this->Vehicle->Imagesvehicle->find('all',array('conditions'=>array('Imagesvehicle.vehicle_id'=>$id)));
+					$idimg = $this->Vehicle->Imagesvehicle->find('first',array('conditions'=>array('Imagesvehicle.vehicle_id'=>$id),'fields'=> 'id'));
 					$idmg = current($idimg)['id'];
-				foreach ($images as $img) {
-					//$file=$img;
-					//debug($img);
-					if (isset($img)) {
-						$extension = strtolower(pathinfo($img['name'],PATHINFO_EXTENSION));//l'extension jdida au cas ou bgha yzid l'image w hya makantch
-						
-						if (!empty($img['tmp_name'])) {
-							$oldextension = strtolower(pathinfo($this->Vehicle->Imagesvehicle->field['image'], PATHINFO_EXTENSION)); //extension l9dima au cas ou bgha ymodifi l'image ila déja kayna 
+					$this->Vehicle->Imagesvehicle->query('DELETE FROM IMAGESVEHICLES WHERE vehicle_id = '.$id);
+					foreach ($images as $img) {
+						$extension = strtolower(pathinfo($img['Imagesvehicle']['image'],PATHINFO_EXTENSION));//l'extension jdida au cas ou bgha yzid l'image w hya makantch
 							$oldfile = IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '.' . $extension;//nchdo l'image (objét)
 							if (file_exists($oldfile)) {
-								
 								unlink($oldfile);
 							}
-								if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_80x60.' . $extension)) {
-									     unlink(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_80x60.' . $extension);
-								}
-								if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg.'_253x190.' . $extension)) {
-									unlink(IMAGES.'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_253x190.' . $extension);
-								}
-								if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_255x191.' . $extension)) {
-									unlink(IMAGES.'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_255x191.' . $extension);
-								}
-								if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_555x416.' . $extension)) {
-									     unlink(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_555x416.' . $extension);
-								}
-								if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_652x409.' . $extension)) {
-									unlink(IMAGES.'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_652x409.' . $extension);
-								}
-					}
-				}
+							if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_80x60.' . $extension)) {
+								     unlink(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_80x60.' . $extension);
+							}
+							if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg.'_253x190.' . $extension)) {
+								unlink(IMAGES.'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_253x190.' . $extension);
+							}
+							if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_255x191.' . $extension)) {
+								unlink(IMAGES.'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_255x191.' . $extension);
+							}
+							if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_555x416.' . $extension)) {
+								     unlink(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_555x416.' . $extension);
+							}
+							if (file_exists(IMAGES  . 'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_652x409.' . $extension)) {
+								unlink(IMAGES.'uploads\vehicules' . DS. 'car_'.$id .'_'. $idmg. '_652x409.' . $extension);
+							}
 			}
 			$this->Session->setFlash(__('The vehicle has been deleted.'));
 		} else {

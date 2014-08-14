@@ -255,11 +255,10 @@ public function fileExtension($check,$extensions,$allowEmpty = true)
 	 */
 		public function beforeDelete($cascade = true) {
 			$oldextension = strtolower(pathinfo($this->field['image'], PATHINFO_EXTENSION)); //extension l9dima au cas ou bgha ymodifi l'image ila déja kayna 
-			$oldfile = IMAGES  . 'uploads\vehicules' . DS. $this->field['image'];//nchdo l'image (objét)
-			if (file_exists($oldfile)) {
-				//supprimer si une existe déja
+			//$oldfile = IMAGES  . 'uploads\vehicules' . DS. $this->field['image'];//nchdo l'image (objét)
+			/*if (file_exists($oldfile)) {
 				unlink($oldfile);
-			}
+			}*/
 		}
 	
 

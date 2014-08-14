@@ -2322,3 +2322,117 @@ Request URL: /Cakephp/js/jquery-2.0.3.min.map
 Stack Trace:
 #0 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-08-14 12:28:39 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/view/41
+Stack Trace:
+#0 [internal function]: VehiclesController->view('41')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-14 12:42:13 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/delete/41
+Stack Trace:
+#0 [internal function]: VehiclesController->delete('41')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-14 12:42:16 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/delete/41
+Stack Trace:
+#0 [internal function]: VehiclesController->delete('41')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-14 12:42:36 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /Cakephp/vehicles/delete/39
+Stack Trace:
+#0 C:\wamp\www\Cakephp\app\Controller\VehiclesController.php(641): CakeRequest->onlyAllow('post', 'delete')
+#1 [internal function]: VehiclesController->delete('39')
+#2 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#5 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-08-14 12:44:12 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM IMAGESVEHICLES WHERE id = $idmg' at line 1
+Request URL: /Cakephp/vehicles/delete/39
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\Cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE * FROM I...', Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('DELETE * FROM I...', Array, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Model\Datasource\DboSource.php(537): DboSource->fetchAll('DELETE * FROM I...')
+#4 [internal function]: DboSource->query('DELETE * FROM I...')
+#5 C:\wamp\www\Cakephp\lib\Cake\Model\Model.php(3306): call_user_func_array(Array, Array)
+#6 C:\wamp\www\Cakephp\app\Controller\VehiclesController.php(648): Model->query('DELETE * FROM I...')
+#7 [internal function]: VehiclesController->delete('39')
+#8 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#9 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-14 12:44:38 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/delete/39
+Stack Trace:
+#0 [internal function]: VehiclesController->delete('39')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-14 12:44:41 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/delete/39
+Stack Trace:
+#0 [internal function]: VehiclesController->delete('39')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-14 12:44:57 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/delete/39
+Stack Trace:
+#0 [internal function]: VehiclesController->delete('39')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-14 12:45:17 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM IMAGESVEHICLES WHERE id = 52' at line 1
+Request URL: /Cakephp/vehicles/delete/38
+Stack Trace:
+#0 C:\wamp\www\Cakephp\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\Cakephp\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('DELETE * FROM I...', Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Model\Datasource\DboSource.php(665): DboSource->execute('DELETE * FROM I...', Array, Array)
+#3 C:\wamp\www\Cakephp\lib\Cake\Model\Datasource\DboSource.php(537): DboSource->fetchAll('DELETE * FROM I...')
+#4 [internal function]: DboSource->query('DELETE * FROM I...')
+#5 C:\wamp\www\Cakephp\lib\Cake\Model\Model.php(3306): call_user_func_array(Array, Array)
+#6 C:\wamp\www\Cakephp\app\Controller\VehiclesController.php(648): Model->query('DELETE * FROM I...')
+#7 [internal function]: VehiclesController->delete('38')
+#8 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#9 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-14 12:50:05 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/delete/43
+Stack Trace:
+#0 [internal function]: VehiclesController->delete('43')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-14 12:50:09 Error: [NotFoundException] Invalid vehicle
+Request URL: /Cakephp/vehicles/delete/43
+Stack Trace:
+#0 [internal function]: VehiclesController->delete('43')
+#1 C:\wamp\www\Cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(VehiclesController), Array)
+#2 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\Cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(VehiclesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\Cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
