@@ -7,10 +7,19 @@ App::uses('AppController', 'Controller');
  * @property PaginatorComponent $Paginator
  */
 class GroupsController extends AppController {
-
+public $components = array(
+				'Acl',
+				'Auth' => array(
+				'authorize' => array(
+				'Actions' => array('actionPath' => 'controllers')
+				)
+				),
+				'Session',
+				'Paginator'
+			);
 	public function beforeFilter() {
 		parent::beforeFilter();
-		
+
 		$this->Auth->allow();
 	}
 /**
@@ -18,7 +27,6 @@ class GroupsController extends AppController {
  *
  * @var array
  */
-	public $components = array('Paginator');
 
 /**
  * index method
