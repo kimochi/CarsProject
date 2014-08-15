@@ -4,7 +4,6 @@
 	<tr>
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('name'); ?></th>
-			<th><?php echo $this->Paginator->sort('image'); ?></th>
 			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
@@ -13,7 +12,6 @@
 	<tr>
 		<td><?php echo h($type['Type']['id']); ?>&nbsp;</td>
 		<td><?php echo h($type['Type']['name']); ?>&nbsp;</td>
-		<td><?php echo h($type['Type']['image']); ?>&nbsp;</td>
 		<td><?php echo h($type['Type']['created']); ?>&nbsp;</td>
 		<td><?php echo h($type['Type']['modified']); ?>&nbsp;</td>
 		<td class="actions">

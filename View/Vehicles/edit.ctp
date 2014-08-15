@@ -9,6 +9,7 @@
 		echo $this->Form->input('id');
 		echo $this->Form->input('mark_id',array('empty'=>'Selectionnez la marque','class'=>'mark','label'=>''));
 		echo $this->Form->input('modele_id',array('empty'=>'Selectionnez le modéle','class'=>'model','label'=>'')); 
+		echo $this->Form->input('type_id');
 		echo $this->Form->input('power');
 		echo $this->Form->input('price');
 		echo $this->Form->input('mileage');

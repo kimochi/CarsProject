@@ -22,7 +22,6 @@ class VehiclesController extends AppController {
  *
  * @return void
  */
-
 	public function index() {
 		$this->Vehicle->validate=array();//use no validation 
 		$this->Vehicle->recursive = 0;
@@ -31,6 +30,68 @@ class VehiclesController extends AppController {
 		//$images = $this->Vehicle->Imagesvehicle->find('list');//send images
 		$this->set(compact('marks','vehicles'));
 		$this->set('images',($this->Vehicle->Imagesvehicle->find('all')));
+		//sedans
+		if ($this->request->query) {
+		
+		if ($this->request->query['type'] == 'sedan') {
+			$this->Paginator->settings= array(
+							'conditions' => array(
+										'AND' => array(
+											'Vehicle.type_id ' => 3
+											)
+											),
+							'limit' => 10
+							);
+			$vehicl = $this->Paginator->paginate('Vehicle');
+			$this->set(compact('vehicl'));
+			$this->render('search');
+		}
+		//citadines
+		if ($this->request->query['type'] == 'citadine') {
+			$this->Paginator->settings= array(
+							'conditions' => array(
+										'AND' => array(
+											'Vehicle.type_id ' => 2
+											)
+											),
+							'limit' => 10
+							);
+			$vehicl = $this->Paginator->paginate('Vehicle');
+			$this->set(compact('vehicl'));
+			$this->render('search');
+		}
+		//pickups
+		if ($this->request->query['type'] == 'pickup') {
+				$this->Paginator->settings= array(
+							'conditions' => array(
+										'AND' => array(
+											'Vehicle.type_id ' => 4
+											)
+											),
+							'limit' => 10
+							);
+			$vehicl = $this->Paginator->paginate('Vehicle');
+			$this->set(compact('vehicl'));
+			$this->render('search');
+		}
+		//sports
+		if ($this->request->query['type'] == 'sport') {
+			$this->Paginator->settings= array(
+							'conditions' => array(
+										'AND' => array(
+											'Vehicle.type_id ' => 5
+											)
+											),
+							'limit' => 10
+							);
+			$vehicl = $this->Paginator->paginate('Vehicle');
+			$this->set(compact('vehicl'));
+			$this->render('search');
+
+		}
+	}
+		
+
 		if ($this->request->is('post')) {
 			$d = ($this->request->data);
 			//debug($d);
@@ -623,7 +684,8 @@ public $helpers = array('Image');
 		}
 		$marks = $this->Vehicle->Mark->find('list');
 		$modeles = $this->Vehicle->Modele->find('list');
-		$this->set(compact('marks', 'modeles'));
+		$types = $this->Vehicle->Type->find('list');
+		$this->set(compact('marks', 'modeles','types'));
 	}
 
 /**

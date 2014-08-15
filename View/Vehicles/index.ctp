@@ -344,10 +344,14 @@
 
                             <div class="meta">
                                 <div class="title">
-                                    <a href="detail.html">Sedans</a>
+                                    <?php echo $this->Html->link('Sedans', array(
+                                    'controller' => 'vehicles',
+                                        'action' => 'index',//this is not necessary since index is the default action
+                                        '?' => array('type' => 'sedan' ))
+                                        );
+                                    ?>
                                 </div><!-- /.title -->
 
-                                <div class="offers">133 offers</div><!-- /.offers -->
                             </div><!-- /.meta -->
 
                             <div class="options">
@@ -372,8 +376,15 @@
                             </div><!-- /.picture -->
 
                             <div class="meta">
-                                <div class="title"><a href="filter.html">Citadines &amp; Berlines</a></div><!-- /.title -->
-                                <div class="offers">55 offers</div><!-- /.offers -->
+                                <div class="title">
+                                
+                                <?php echo $this->Html->link('Citadines & Berlines', array(
+                                    'controller' => 'vehicles',
+                                        'action' => 'index',//this is not necessary since index is the default action
+                                        '?' => array('type' => 'citadine' ))
+                                        );
+                                    ?>
+                                </div><!-- /.title -->
                             </div><!-- /.meta -->
 
                             <div class="options">
@@ -397,10 +408,15 @@
                             
                             <div class="meta">
                                 <div class="title">
-                                    <a href="detail.html">Pickup &amp; SUVs &amp; 4X4</a>
+                                    
+                                    
+                                    <?php echo $this->Html->link('Pickup & SUVs & 4X4', array(
+                                    'controller' => 'vehicles',
+                                        'action' => 'index',//this is not necessary since index is the default action
+                                        '?' => array('type' => 'pickup' ))
+                                        );
+                                    ?>
                                 </div><!-- /.title -->
-
-                                <div class="offers">24 offers</div><!-- /.offers -->
                             </div><!-- /.meta -->
 
                             <div class="options">
@@ -424,9 +440,16 @@
                             </div>
                             <div class="meta">
                                 <div class="title">
-                                    <a href="detail.html">Voitures Sportifs</a>
+                                    
+
+                                    <?php echo $this->Html->link('Voitures Sportifs', array(
+                                    'controller' => 'vehicles',
+                                        'action' => 'index',//this is not necessary since index is the default action
+                                        '?' => array('type' => 'sport' ))
+                                        );
+                                    ?>
+                                    </a>
                                 </div><!-- /.title -->
-                                <div class="offers">89 offers</div><!-- /.offers-->
                             </div><!-- /.meta -->
 
                             <div class="options">
